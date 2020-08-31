@@ -34,8 +34,7 @@ $on-laptop:        90% !default;
 //   }
 // }
 @mixin media-query($device) {
-  @media screen and (max-width: $device) 
-  
+  @media screen and (max-width: $device) {
     @content;
   }
 }
