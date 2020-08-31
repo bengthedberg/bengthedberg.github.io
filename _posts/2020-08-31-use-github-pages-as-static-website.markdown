@@ -5,16 +5,16 @@ date:   2020-08-31 14:21:47 +1000
 categories: GitHub 
 tags:
 - GitHub
-- documentation
+- Documentation
 ---
 
-[GitHub Pages](https://pages.github.com/) makes it easy to create static webpages, (no database or server). Ideal for blogs with lots of static information or sites created automatically, for example documentation sites for projects.
+[GitHub Pages](https://pages.github.com/) makes it easy to create static webpages, (no database or server). Ideal for blogs with lots of static information or sites created automatically, for example documentation for projects.
 
 This post will go through how you setup a user blog site, like this one, in a few steps. You will maintain the site locally and push the changes to GitHub to publish the information on your site.
 
 As GitHub Pages is powered by [Jekyll](https://jekyllrb.com/) we need Ruby installed locally so we can maintain the site.
 
-## Install Jekyll and Ruby
+### Install Jekyll and Ruby
 
 For windows you can use the [RubyInstaller](https://jekyllrb.com/docs/installation/windows/) or [chocolatey](https://chocolatey.org/):
 
@@ -50,11 +50,11 @@ jekyll -v
 ```
 
 
-## Create a Repository for the Site
+### Create a Repository for the Site
 Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub.
 
 
-## Create the Site
+### Create the Site
 
 There are different ways to create the actual site:
 
@@ -80,7 +80,7 @@ jekyll server --watch
 
 This will start the site locally, normally on [http://localhost:4000/](http://localhost:4000/)
 
-## Update the Site 
+### Update the Site 
 
 Once you are ready you can upload the site to GitHub:
 
@@ -101,7 +101,7 @@ git push origin master
 
 Your site is now live, go to you link and check it out. Note that initially it can take up to 20 minutes for it to work so be patient.
 
-## Posts
+### Posts
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

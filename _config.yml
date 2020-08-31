@@ -36,6 +36,7 @@ linkedin_username: bengthedberg
 # Layout
 show_excerpts: true
 header_pages:
+  - tags.md
   - about.md
   
 # Build settings
