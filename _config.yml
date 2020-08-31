@@ -22,7 +22,8 @@ title: A Simple Developer
 email: bengt.hedberg@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Notes and examples of a simple developer experiences of 
-  wrestling with the systems beasts and dragons.
+  wrestling with the beasts and dragons as nothing 
+  has changed and yet everything is different.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TheHedberg
