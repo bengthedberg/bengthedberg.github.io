@@ -8,7 +8,7 @@ tags:
 - documentation
 ---
 
-[GitHub Pages](https://pages.github.com/) makes it easy to create static webpages, (no database or server). Ideal for blogs and similar update once, read many type of sites.
+[GitHub Pages](https://pages.github.com/) makes it easy to create static webpages, (no database or server). Ideal for blogs with lots of static information or sites created automatically, for example documentation sites for projects.
 
 This post will go through how you setup a user blog site, like this one, in a few steps. You will maintain the site locally and push the changes to GitHub to publish the information on your site.
 
