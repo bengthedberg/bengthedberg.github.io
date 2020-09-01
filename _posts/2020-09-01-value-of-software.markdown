@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Value of Software"
-date:   2020-09-01 14:21:47 +1000
+date:   2020-09-01 10:21:47 +1000
 categories: General 
 tags:
 - Attitudes
