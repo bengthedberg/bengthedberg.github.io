@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Requirements and Use Cases"
+title:  "Requirements to Use Cases"
 date:   2019-12-02 10:11:22 +1000
 categories: Design 
 tags:
@@ -35,11 +35,11 @@ Use cases with less words, using the terminology in the requirements, makes it e
 
 Lets first describe what the system is to deliver by defining its goal:
 
-**System Description: ** *"TechMeet is a social network that makes it easy for people to track events covering their favourite tech stack.”*
+**System Description:** *"TechMeet is a social network that makes it easy for people to track events covering their favourite tech stack.”*
 
 This may look a bit contrived as its just a copy from the first paragraph, though the point here is to have a statement that describes the purpose of this system. It will be used when prioritising the use cases based on the systems core functionality, also referred to as the MVP (Minimal Value Product).
 
-Extracting the requirements into use cases can be done in different ways. I prefer to start with the actors, meaning the people or other systems that interact with this system, and what way they use the system. 
+Extracting the requirements into use cases can be done in different ways. I prefer to start with the actors, meaning the people or other systems that interact with this system, and how they use the system. 
 
 In our case we have *organisers* and *users* as actors, so we underline them to highlight these. Then we mark any actions these actors perform as well as screens, reports or anything else that is specifically mention in the requirement. The following is my attempt:  
 
@@ -85,7 +85,7 @@ The **sign-up** action indicates that we will need authentication with organiser
 
 So, we have extracted the use cases and entered them into our backlog. 
 
-In order to identify the core use cases that affect the architecture of our application, we need to work out their dependency first. 
+**In order to identify the core use cases that affect the design of our application, we need to work out their dependency first.**
 
 For example, we cannot unfollow an organiser without following them first. 
 
@@ -129,7 +129,7 @@ And finally, when we implement view all upcoming events, we can give the user th
 
 Now it's time to identify the core use cases. These are the **use cases that shape the domain of our application**. They often involve **capturing data and change the state of the application**. So, from this list, which use cases do you think are the core use cases? 
 
-Adding an event changes the state of our application. That is a core use case. 
+**Adding an event** changes the state of our application. That is a core use case. 
 
 In the second column, we don't have any use cases that change the state of the application. They all are *reporting use cases*. 
 
@@ -137,9 +137,9 @@ What about the third column? Here we have a few use cases that change the state 
 
 But I do not see edit an event as a primary or core use case because it is like add an event. 
 
-Once we build a domain model that allows us to capture n event, editing or removing it should not have a major impact in our domain. So, they are out. 
+Once we build a domain model that allows us to capture an event, editing or removing it should not have a major impact in our domain. So, they are out. 
 
-Adding an event to calendar, however, requires extending our domain model. For each user, we need to keep track of the events they are attending. So, this is another core use case. And the same applies to follow an organiser. For each user, we need to keep track of the organisers they follow. 
+**Adding an event to calendar**, however, requires extending our domain model. For each user, we need to keep track of the events they are attending. So, this is another core use case. And the same applies to **follow an organiser**. For each user, we need to keep track of the organisers they follow. 
 
 Now look at the fourth column, we don't have any primary use cases because all these are for reporting. 
 
