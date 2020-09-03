@@ -7,7 +7,17 @@ tags:
 - Requirement
 - Analysis
 ---
-An example of how you take a set of requirements and create use cases from them, list dependencies, order them and pull out the MVP.
+An example of how you take a set of requirements and create use cases from them, list dependencies, order them and pull out the core functionality.
+
+### Summary
+
+1. Create each use case by highlighting actors, actions and resources from requirement statement.
+2. Group these use cases based on overall entities in the system that holds state.
+3. Order the use cases base on dependencies
+4. Extract the core cases based on the one that changes state of the application
+5. Identify any supporting use cases.
+
+### The Requirements
 
 Here is an example of a set of requirements, this would normally be the result from interviewing subject matter experts and core stake holders:
 
