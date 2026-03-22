@@ -4,7 +4,7 @@ title:  "Visual Studio Tips and Extensions"
 date:   2020-01-15 07:21:47 +1000
 categories: Visual Studio 
 tags:
-- Productivity
+- productivity
 ---
 
 These are the extensions I use in Visual Studio as well as common short cuts, (that I keep forgetting).
