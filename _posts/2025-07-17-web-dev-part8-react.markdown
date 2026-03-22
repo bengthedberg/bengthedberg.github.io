@@ -18,19 +18,19 @@ series_part: 8
 
 This is an 8-part series covering the core technologies of web development:
 
-1. [HTML — The Structure of the Web](2025-04-web-dev-part1-html.md) — Elements, attributes, block vs inline, and document structure
-2. [CSS — Styling the Web](2025-04-web-dev-part2-css.md) — Selectors, properties, the box model, and layout basics
-3. [JavaScript — Adding Interactivity](2025-05-web-dev-part3-javascript.md) — Variables, data types, functions, arrays, and control flow
-4. [The DOM — Connecting JavaScript to HTML](2025-05-web-dev-part4-dom.md) — Selecting elements, changing styles, and modifying attributes
-5. [jQuery — Write Less, Do More](2025-06-web-dev-part5-jquery.md) — Selectors, events, and DOM manipulation with jQuery
-6. [Bootstrap — Responsive Layouts Made Easy](2025-06-web-dev-part6-bootstrap.md) — Grid system, responsive breakpoints, and rapid prototyping
-7. [HTTP — How the Web Communicates](2025-07-web-dev-part7-http.md) — Requests, responses, methods, and status codes
+1. [HTML — The Structure of the Web](/posts/web-dev-part1-html/) — Elements, attributes, block vs inline, and document structure
+2. [CSS — Styling the Web](/posts/web-dev-part2-css/) — Selectors, properties, the box model, and layout basics
+3. [JavaScript — Adding Interactivity](/posts/web-dev-part3-javascript/) — Variables, data types, functions, arrays, and control flow
+4. [The DOM — Connecting JavaScript to HTML](/posts/web-dev-part4-dom/) — Selecting elements, changing styles, and modifying attributes
+5. [jQuery — Write Less, Do More](/posts/web-dev-part5-jquery/) — Selectors, events, and DOM manipulation with jQuery
+6. [Bootstrap — Responsive Layouts Made Easy](/posts/web-dev-part6-bootstrap/) — Grid system, responsive breakpoints, and rapid prototyping
+7. [HTTP — How the Web Communicates](/posts/web-dev-part7-http/) — Requests, responses, methods, and status codes
 8. **React — Building Modern User Interfaces** (this article) — Components, JSX, props, state, hooks, and thinking in React
 
 
 ## What Is React?
 
-React is a JavaScript library for building user interfaces, created by Meta (Facebook). Instead of manipulating the DOM directly — as we did with vanilla JavaScript in [Part 4](2025-05-web-dev-part4-dom.md) and jQuery in [Part 5](2025-06-web-dev-part5-jquery.md) — React lets you describe **what** the UI should look like and handles the DOM updates for you.
+React is a JavaScript library for building user interfaces, created by Meta (Facebook). Instead of manipulating the DOM directly — as we did with vanilla JavaScript in [Part 4](/posts/web-dev-part4-dom/) and jQuery in [Part 5](/posts/web-dev-part5-jquery/) — React lets you describe **what** the UI should look like and handles the DOM updates for you.
 
 React's key ideas:
 
@@ -496,13 +496,13 @@ React encourages a specific mental model for building UIs:
 
 Over this 8-part series, we've traced the complete arc of web development:
 
-1. **[HTML](2025-04-web-dev-part1-html.md)** — The structure and content of web pages
-2. **[CSS](2025-04-web-dev-part2-css.md)** — Visual styling, layout, and responsive design
-3. **[JavaScript](2025-05-web-dev-part3-javascript.md)** — Programming logic and interactivity
-4. **[DOM](2025-05-web-dev-part4-dom.md)** — The bridge between JavaScript and HTML
-5. **[jQuery](2025-06-web-dev-part5-jquery.md)** — A concise API for DOM manipulation
-6. **[Bootstrap](2025-06-web-dev-part6-bootstrap.md)** — Rapid responsive layouts
-7. **[HTTP](2025-07-web-dev-part7-http.md)** — The protocol that connects it all
+1. **[HTML](/posts/web-dev-part1-html/)** — The structure and content of web pages
+2. **[CSS](/posts/web-dev-part2-css/)** — Visual styling, layout, and responsive design
+3. **[JavaScript](/posts/web-dev-part3-javascript/)** — Programming logic and interactivity
+4. **[DOM](/posts/web-dev-part4-dom/)** — The bridge between JavaScript and HTML
+5. **[jQuery](/posts/web-dev-part5-jquery/)** — A concise API for DOM manipulation
+6. **[Bootstrap](/posts/web-dev-part6-bootstrap/)** — Rapid responsive layouts
+7. **[HTTP](/posts/web-dev-part7-http/)** — The protocol that connects it all
 8. **React** — Component-based UIs with declarative state management
 
 From hand-crafting HTML tags to building reactive component trees — these fundamentals form the foundation of modern web development.

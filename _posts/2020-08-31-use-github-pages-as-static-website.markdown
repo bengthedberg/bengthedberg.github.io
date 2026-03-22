@@ -57,11 +57,11 @@ Head over to GitHub and create a new repository named username.github.io, where 
 
 In my case this repository would look like this as my username is bengthedberg:
 
-![build](\assets\github_repo.png)
+![build](/assets/github_repo.png)
 
 Once it has been created you can review the settings:
 
-![build](\assets\github_page_settings.png)
+![build](/assets/github_page_settings.png)
 
 
 
@@ -114,11 +114,11 @@ Your site is now live, go to your GitHub Page link and check it out. Note that i
 
 You can verify the last time the site was rebuilt by clicking the github-pages link in the github repository:
 
-![build](\assets\github_environment.png)
+![build](/assets/github_environment.png)
 
 This page will display the latest github deployment as well as an activity log.
 
-![build](\assets\github_activity.png)
+![build](/assets/github_activity.png)
 
 
 > Note: Any build failure will be emailed so if your github site is not updated you should check your email that is registered to your github account.  

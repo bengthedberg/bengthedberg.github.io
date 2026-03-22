@@ -17,9 +17,9 @@ series_part: 1
 This is a 4-part series on productive C# development with Visual Studio Code:
 
 1. **Getting Started** (this article) — Installation, UI tour, Git integration, keyboard customisation
-2. [Developing C# Apps](2025-09-vscode-csharp-part2-developing.md) — Extensions, editing, IntelliSense, NuGet packages
-3. [Debugging](2025-10-vscode-csharp-part3-debugging.md) — Breakpoints, configurations, web app debugging, attach to process
-4. [Productivity](2025-10-vscode-csharp-part4-productivity.md) — Keyboard shortcuts, tasks, workflow optimisation
+2. [Developing C# Apps](/posts/vscode-csharp-part2-developing/) — Extensions, editing, IntelliSense, NuGet packages
+3. [Debugging](/posts/vscode-csharp-part3-debugging/) — Breakpoints, configurations, web app debugging, attach to process
+4. [Productivity](/posts/vscode-csharp-part4-productivity/) — Keyboard shortcuts, tasks, workflow optimisation
 
 
 ## Why VS Code for C#?
@@ -149,4 +149,4 @@ You can also use **chord shortcuts** — two-key sequences like `Ctrl+X Ctrl+G`:
 
 ## What's Next
 
-In [Part 2: Developing C# Apps](2025-09-vscode-csharp-part2-developing.md), we'll install the C# extensions, create a .NET project, and explore editing features like IntelliSense, code snippets, quick fixes, and NuGet package management.
+In [Part 2: Developing C# Apps](/posts/vscode-csharp-part2-developing/), we'll install the C# extensions, create a .NET project, and explore editing features like IntelliSense, code snippets, quick fixes, and NuGet package management.

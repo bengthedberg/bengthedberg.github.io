@@ -18,8 +18,8 @@ series_part: 1
 This is a three-part series on building observable .NET applications, from structured logging through request tracing to full distributed tracing with OpenTelemetry.
 
 1. **Part 1: Structured Logging with Serilog** (this article)
-2. [Part 2: Better Request Tracing with User Context](./2026-05-dotnet-observability-part2-request-tracing.md)
-3. [Part 3: Distributed Tracing with OpenTelemetry](./2026-05-dotnet-observability-part3-opentelemetry.md)
+2. [Part 2: Better Request Tracing with User Context](/posts/dotnet-observability-part2-request-tracing/)
+3. [Part 3: Distributed Tracing with OpenTelemetry](/posts/dotnet-observability-part3-opentelemetry/)
 
 
 ## Why Structured Logging Matters
@@ -147,7 +147,7 @@ Getting structured logging right is the foundation everything else builds on. Wi
 
 ## What's Next?
 
-In [Part 2: Better Request Tracing with User Context](./2026-05-dotnet-observability-part2-request-tracing.md), we will build on this foundation by enriching our logs with user identity information. You will learn how to use ASP.NET Core middleware to automatically attach user IDs to every log entry and activity trace, making it trivial to filter logs for a specific user when troubleshooting.
+In [Part 2: Better Request Tracing with User Context](/posts/dotnet-observability-part2-request-tracing/), we will build on this foundation by enriching our logs with user identity information. You will learn how to use ASP.NET Core middleware to automatically attach user IDs to every log entry and activity trace, making it trivial to filter logs for a specific user when troubleshooting.
 
 ## References
 

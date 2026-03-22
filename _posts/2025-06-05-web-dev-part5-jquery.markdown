@@ -17,14 +17,14 @@ series_part: 5
 
 This is an 8-part series covering the core technologies of web development:
 
-1. [HTML — The Structure of the Web](2025-04-web-dev-part1-html.md) — Elements, attributes, block vs inline, and document structure
-2. [CSS — Styling the Web](2025-04-web-dev-part2-css.md) — Selectors, properties, the box model, and layout basics
-3. [JavaScript — Adding Interactivity](2025-05-web-dev-part3-javascript.md) — Variables, data types, functions, arrays, and control flow
-4. [The DOM — Connecting JavaScript to HTML](2025-05-web-dev-part4-dom.md) — Selecting elements, changing styles, and modifying attributes
+1. [HTML — The Structure of the Web](/posts/web-dev-part1-html/) — Elements, attributes, block vs inline, and document structure
+2. [CSS — Styling the Web](/posts/web-dev-part2-css/) — Selectors, properties, the box model, and layout basics
+3. [JavaScript — Adding Interactivity](/posts/web-dev-part3-javascript/) — Variables, data types, functions, arrays, and control flow
+4. [The DOM — Connecting JavaScript to HTML](/posts/web-dev-part4-dom/) — Selecting elements, changing styles, and modifying attributes
 5. **jQuery — Write Less, Do More** (this article) — Selectors, events, and DOM manipulation with jQuery
-6. [Bootstrap — Responsive Layouts Made Easy](2025-06-web-dev-part6-bootstrap.md) — Grid system, responsive breakpoints, and rapid prototyping
-7. [HTTP — How the Web Communicates](2025-07-web-dev-part7-http.md) — Requests, responses, methods, and status codes
-8. [React — Building Modern User Interfaces](2025-07-web-dev-part8-react.md) — Components, JSX, props, state, hooks, and thinking in React
+6. [Bootstrap — Responsive Layouts Made Easy](/posts/web-dev-part6-bootstrap/) — Grid system, responsive breakpoints, and rapid prototyping
+7. [HTTP — How the Web Communicates](/posts/web-dev-part7-http/) — Requests, responses, methods, and status codes
+8. [React — Building Modern User Interfaces](/posts/web-dev-part8-react/) — Components, JSX, props, state, hooks, and thinking in React
 
 
 ## What Is jQuery?
@@ -260,7 +260,7 @@ jQuery also automatically handles iteration — `$("p").css("color", "red")` app
 
 ## What's Next?
 
-jQuery makes DOM manipulation concise, but building responsive layouts from scratch is still tedious. In [Part 6](2025-06-web-dev-part6-bootstrap.md), we'll use **Bootstrap** — a CSS framework that gives you a responsive grid system and pre-built components out of the box.
+jQuery makes DOM manipulation concise, but building responsive layouts from scratch is still tedious. In [Part 6](/posts/web-dev-part6-bootstrap/), we'll use **Bootstrap** — a CSS framework that gives you a responsive grid system and pre-built components out of the box.
 
 ## References
 

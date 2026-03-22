@@ -18,14 +18,14 @@ series_part: 2
 
 This is a three-part series on building observable .NET applications, from structured logging through request tracing to full distributed tracing with OpenTelemetry.
 
-1. [Part 1: Structured Logging with Serilog](./2026-04-dotnet-observability-part1-serilog.md)
+1. [Part 1: Structured Logging with Serilog](/posts/dotnet-observability-part1-serilog/)
 2. **Part 2: Better Request Tracing with User Context** (this article)
-3. [Part 3: Distributed Tracing with OpenTelemetry](./2026-05-dotnet-observability-part3-opentelemetry.md)
+3. [Part 3: Distributed Tracing with OpenTelemetry](/posts/dotnet-observability-part3-opentelemetry/)
 
 
 ## The Missing Piece in Your Logs
 
-In [Part 1](./2026-04-dotnet-observability-part1-serilog.md), we set up structured logging with Serilog. Our logs are now machine-readable, searchable, and enriched with metadata. But there is a gap: when a user reports a problem, how do you find *their* log entries among thousands?
+In [Part 1](/posts/dotnet-observability-part1-serilog/), we set up structured logging with Serilog. Our logs are now machine-readable, searchable, and enriched with metadata. But there is a gap: when a user reports a problem, how do you find *their* log entries among thousands?
 
 The answer is to attach user identity to every log entry and trace automatically. Instead of manually passing user IDs into every log call, we build a middleware that enriches the entire request pipeline with user context. This is a small investment that pays off enormously during incident response.
 
@@ -118,7 +118,7 @@ Order matters here. If you place the enrichment middleware before authentication
 
 ## Connecting with OpenTelemetry
 
-If you are using OpenTelemetry to export your logs (which we will cover in [Part 3](./2026-05-dotnet-observability-part3-opentelemetry.md)), you need to tell the OpenTelemetry logging provider to include scope data in the exported log records:
+If you are using OpenTelemetry to export your logs (which we will cover in [Part 3](/posts/dotnet-observability-part3-opentelemetry/)), you need to tell the OpenTelemetry logging provider to include scope data in the exported log records:
 
 ```csharp
 builder.Logging.AddOpenTelemetry(options =>
@@ -184,7 +184,7 @@ This is a small amount of middleware code that delivers an outsized improvement 
 
 ## What's Next?
 
-In [Part 3: Distributed Tracing with OpenTelemetry](./2026-05-dotnet-observability-part3-opentelemetry.md), we take the final step: instrumenting your entire distributed system with OpenTelemetry. You will learn how to collect traces across multiple services, visualize request flows in Jaeger, and see exactly how requests travel through your architecture — including database queries, HTTP calls, message bus interactions, and cache lookups.
+In [Part 3: Distributed Tracing with OpenTelemetry](/posts/dotnet-observability-part3-opentelemetry/), we take the final step: instrumenting your entire distributed system with OpenTelemetry. You will learn how to collect traces across multiple services, visualize request flows in Jaeger, and see exactly how requests travel through your architecture — including database queries, HTTP calls, message bus interactions, and cache lookups.
 
 ## References
 

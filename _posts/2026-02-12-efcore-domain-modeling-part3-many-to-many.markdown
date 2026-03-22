@@ -17,15 +17,15 @@ series_part: 3
 
 This is a 4-part series on Entity Framework Core and domain modeling in .NET:
 
-1. [Setup and Your First DbContext](2026-01-efcore-domain-modeling-part1-setup.md) — What is EF Core, project setup, DbContext, dependency injection, migrations
-2. [One-to-One and One-to-Many Relationships](2026-02-efcore-domain-modeling-part2-relationships.md) — Modeling relationships between entities with the Fluent API
+1. [Setup and Your First DbContext](/posts/efcore-domain-modeling-part1-setup/) — What is EF Core, project setup, DbContext, dependency injection, migrations
+2. [One-to-One and One-to-Many Relationships](/posts/efcore-domain-modeling-part2-relationships/) — Modeling relationships between entities with the Fluent API
 3. **Many-to-Many Relationships** (this article) — Join tables, implicit and explicit approaches, unidirectional navigation
-4. [Seed Data and Putting It All Together](2026-02-efcore-domain-modeling-part4-seed-data.md) — Populating your database, complete model example, next steps
+4. [Seed Data and Putting It All Together](/posts/efcore-domain-modeling-part4-seed-data/) — Populating your database, complete model example, next steps
 
 
 ## Introduction
 
-In [Part 2](2026-02-efcore-domain-modeling-part2-relationships.md), we modelled relationships where one entity references another directly through a foreign key. Many-to-many relationships are fundamentally different: they cannot be represented with a single foreign key. Instead, they require an additional **join table** that sits between the two entities.
+In [Part 2](/posts/efcore-domain-modeling-part2-relationships/), we modelled relationships where one entity references another directly through a foreign key. Many-to-many relationships are fundamentally different: they cannot be represented with a single foreign key. Instead, they require an additional **join table** that sits between the two entities.
 
 Think of real-world examples: a `Post` can have many `Tags`, and a `Tag` can be applied to many `Posts`. A `Student` can enrol in many `Courses`, and a `Course` has many `Students`. Neither side "owns" the other — the relationship is symmetric.
 
@@ -183,7 +183,7 @@ Start with the implicit approach. If you later discover the join needs payload, 
 
 Many-to-many relationships are conceptually straightforward but require a join table that EF Core can manage for you. The implicit approach keeps your C# model clean, while the explicit join entity gives you full control when the relationship itself carries data.
 
-In [Part 4](2026-02-efcore-domain-modeling-part4-seed-data.md), we'll seed the database with initial data and bring together all the relationship types from this series into a complete domain model.
+In [Part 4](/posts/efcore-domain-modeling-part4-seed-data/), we'll seed the database with initial data and bring together all the relationship types from this series into a complete domain model.
 
 ## References
 

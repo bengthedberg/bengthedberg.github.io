@@ -16,8 +16,8 @@ series_part: 1
 ## Series Overview
 
 1. **Multiple GitHub Accounts with SSH** (this article) — Configure SSH for personal and work accounts
-2. [Semantic Versioning with GitVersion](2025-11-github-devops-part2-gitversion.md) — Automated versioning using GitFlow
-3. [GitHub Actions Workflows](2025-11-github-devops-part3-workflows.md) — Build, version, and publish NuGet packages
+2. [Semantic Versioning with GitVersion](/posts/github-devops-part2-gitversion/) — Automated versioning using GitFlow
+3. [GitHub Actions Workflows](/posts/github-devops-part3-workflows/) — Build, version, and publish NuGet packages
 
 
 ## The Problem
@@ -243,4 +243,4 @@ git clone git@github.com-client:client-org/repo.git
 
 ## What's Next
 
-In [Part 2: Semantic Versioning with GitVersion](2025-11-github-devops-part2-gitversion.md), we'll automate version number generation using GitVersion and the GitFlow branching strategy.
+In [Part 2: Semantic Versioning with GitVersion](/posts/github-devops-part2-gitversion/), we'll automate version number generation using GitVersion and the GitFlow branching strategy.

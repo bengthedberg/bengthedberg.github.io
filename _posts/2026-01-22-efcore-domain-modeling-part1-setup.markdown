@@ -18,9 +18,9 @@ series_part: 1
 This is a 4-part series on Entity Framework Core and domain modeling in .NET:
 
 1. **Setup and Your First DbContext** (this article) — What is EF Core, project setup, DbContext, dependency injection, migrations
-2. [One-to-One and One-to-Many Relationships](2026-02-efcore-domain-modeling-part2-relationships.md) — Modeling relationships between entities with the Fluent API
-3. [Many-to-Many Relationships](2026-02-efcore-domain-modeling-part3-many-to-many.md) — Join tables, implicit and explicit approaches, unidirectional navigation
-4. [Seed Data and Putting It All Together](2026-02-efcore-domain-modeling-part4-seed-data.md) — Populating your database, complete model example, next steps
+2. [One-to-One and One-to-Many Relationships](/posts/efcore-domain-modeling-part2-relationships/) — Modeling relationships between entities with the Fluent API
+3. [Many-to-Many Relationships](/posts/efcore-domain-modeling-part3-many-to-many/) — Join tables, implicit and explicit approaches, unidirectional navigation
+4. [Seed Data and Putting It All Together](/posts/efcore-domain-modeling-part4-seed-data/) — Populating your database, complete model example, next steps
 
 
 ## What Is EF Core?
@@ -196,7 +196,7 @@ EF Core compares the current model to the last migration snapshot and generates 
 
 You now have a working EF Core setup: a DbContext registered with dependency injection, a simple entity mapped by convention, and migrations to manage your schema. This foundation is what everything else in the series builds on.
 
-In [Part 2](2026-02-efcore-domain-modeling-part2-relationships.md), we'll add relationships between entities — one-to-many and one-to-one — and learn how to configure them with the Fluent API.
+In [Part 2](/posts/efcore-domain-modeling-part2-relationships/), we'll add relationships between entities — one-to-many and one-to-one — and learn how to configure them with the Fluent API.
 
 ## References
 

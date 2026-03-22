@@ -19,8 +19,8 @@ series_part: 3
 
 This is a 3-part series on testing .NET applications:
 
-1. [Getting Started with xUnit.net](2026-03-dotnet-testing-part1-xunit.md) — Project setup, writing tests, data-driven tests, fixtures, parallelism, and advanced features
-2. [Writing Readable Tests with Fluent Assertions](2026-03-dotnet-testing-part2-fluent-assertions.md) — Natural-language assertions, clearer failure messages, and custom assertions
+1. [Getting Started with xUnit.net](/posts/dotnet-testing-part1-xunit/) — Project setup, writing tests, data-driven tests, fixtures, parallelism, and advanced features
+2. [Writing Readable Tests with Fluent Assertions](/posts/dotnet-testing-part2-fluent-assertions/) — Natural-language assertions, clearer failure messages, and custom assertions
 3. **Integration Testing with Testcontainers** (this article) — Testing against real databases using Docker containers and CI setup
 
 
@@ -244,7 +244,7 @@ Passed!  - Failed: 0, Passed: 1, Skipped: 0, Total: 1
 
 ## Using Fixtures for Performance
 
-Starting a new container per test class adds overhead. For tests that can share a database, use `IClassFixture<T>` (covered in [Part 1](2026-03-dotnet-testing-part1-xunit.md)):
+Starting a new container per test class adds overhead. For tests that can share a database, use `IClassFixture<T>` (covered in [Part 1](/posts/dotnet-testing-part1-xunit/)):
 
 ```csharp
 public sealed class PostgresFixture : IAsyncLifetime
@@ -366,8 +366,8 @@ The best test suites use both: fast unit tests with mocks for business logic, an
 
 Across this 3-part series, we've built a complete .NET testing toolkit:
 
-1. **[xUnit.net](2026-03-dotnet-testing-part1-xunit.md)** — The foundation: test structure, data-driven tests, fixtures, parallel execution
-2. **[Fluent Assertions](2026-03-dotnet-testing-part2-fluent-assertions.md)** — Readable assertions with better failure messages
+1. **[xUnit.net](/posts/dotnet-testing-part1-xunit/)** — The foundation: test structure, data-driven tests, fixtures, parallel execution
+2. **[Fluent Assertions](/posts/dotnet-testing-part2-fluent-assertions/)** — Readable assertions with better failure messages
 3. **Testcontainers** — Real infrastructure in your test suite, from local development to CI
 
 Together, these tools let you write tests that are readable, reliable, and actually test what matters.

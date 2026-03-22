@@ -15,10 +15,10 @@ series_part: 2
 
 ## Series Overview
 
-1. [Getting Started](2025-09-vscode-csharp-part1-getting-started.md) — Installation, UI tour, Git integration
+1. [Getting Started](/posts/vscode-csharp-part1-getting-started/) — Installation, UI tour, Git integration
 2. **Developing C# Apps** (this article) — Extensions, editing, IntelliSense, NuGet packages
-3. [Debugging](2025-10-vscode-csharp-part3-debugging.md) — Breakpoints, configurations, attach to process
-4. [Productivity](2025-10-vscode-csharp-part4-productivity.md) — Keyboard shortcuts, tasks, workflow optimisation
+3. [Debugging](/posts/vscode-csharp-part3-debugging/) — Breakpoints, configurations, attach to process
+4. [Productivity](/posts/vscode-csharp-part4-productivity/) — Keyboard shortcuts, tasks, workflow optimisation
 
 
 ## Essential Extensions
@@ -200,4 +200,4 @@ dotnet run
 
 ## What's Next
 
-In [Part 3: Debugging](2025-10-vscode-csharp-part3-debugging.md), we'll explore breakpoints, variable inspection, debug configurations, command-line arguments, web app debugging, and attaching to running processes.
+In [Part 3: Debugging](/posts/vscode-csharp-part3-debugging/), we'll explore breakpoints, variable inspection, debug configurations, command-line arguments, web app debugging, and attaching to running processes.

@@ -18,17 +18,17 @@ series_part: 5
 
 This is a 6-part series on building a production-ready REST API with .NET:
 
-1. [Project Setup, Contracts, and Controllers](2025-08-dotnet-rest-api-part1-foundations.md) — Solution structure, contracts, repository pattern, controllers, and mapping
-2. [Database Integration with Dapper](2025-08-dotnet-rest-api-part2-database.md) — PostgreSQL with Docker, Dapper ORM, migrations, and slugs
-3. [Business Logic and Validation](2025-09-dotnet-rest-api-part3-validation.md) — Service layer, FluentValidation, middleware, and cancellation tokens
-4. [Authentication and Authorization](2025-09-dotnet-rest-api-part4-auth.md) — JWT tokens, claims-based authorization, and user identity
+1. [Project Setup, Contracts, and Controllers](/posts/dotnet-rest-api-part1-foundations/) — Solution structure, contracts, repository pattern, controllers, and mapping
+2. [Database Integration with Dapper](/posts/dotnet-rest-api-part2-database/) — PostgreSQL with Docker, Dapper ORM, migrations, and slugs
+3. [Business Logic and Validation](/posts/dotnet-rest-api-part3-validation/) — Service layer, FluentValidation, middleware, and cancellation tokens
+4. [Authentication and Authorization](/posts/dotnet-rest-api-part4-auth/) — JWT tokens, claims-based authorization, and user identity
 5. **Filtering, Sorting, and Pagination** (this article) — Query parameters, dynamic sorting, paginated responses
-6. [Production Readiness](2025-09-dotnet-rest-api-part6-production.md) — Versioning, Swagger/OpenAPI, health checks, caching, and API key auth
+6. [Production Readiness](/posts/dotnet-rest-api-part6-production/) — Versioning, Swagger/OpenAPI, health checks, caching, and API key auth
 
 
 ## Introduction
 
-In [Part 4](2025-09-dotnet-rest-api-part4-auth.md) we secured our API with JWT authentication. Now we tackle a problem every API faces as data grows: returning all movies in a single response becomes slow and wasteful. Clients need the ability to filter, sort, and page through results. In this part we add all three.
+In [Part 4](/posts/dotnet-rest-api-part4-auth/) we secured our API with JWT authentication. Now we tackle a problem every API faces as data grows: returning all movies in a single response becomes slow and wasteful. Clients need the ability to filter, sort, and page through results. In this part we add all three.
 
 ## Filtering
 
@@ -381,7 +381,7 @@ These features work together: a client can request "action movies from 2020, sor
 
 ## What's Next?
 
-In [Part 6: Production Readiness](2025-09-dotnet-rest-api-part6-production.md), we will add API versioning, Swagger documentation, health checks, output caching, and API key authentication — everything you need before deploying to production.
+In [Part 6: Production Readiness](/posts/dotnet-rest-api-part6-production/), we will add API versioning, Swagger documentation, health checks, output caching, and API key authentication — everything you need before deploying to production.
 
 ## References
 

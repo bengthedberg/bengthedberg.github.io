@@ -18,17 +18,17 @@ series_part: 2
 
 This is a 6-part series on building a production-ready REST API with .NET:
 
-1. [Project Setup, Contracts, and Controllers](2025-08-dotnet-rest-api-part1-foundations.md) — Solution structure, contracts, repository pattern, controllers, and mapping
+1. [Project Setup, Contracts, and Controllers](/posts/dotnet-rest-api-part1-foundations/) — Solution structure, contracts, repository pattern, controllers, and mapping
 2. **Database Integration with Dapper** (this article) — PostgreSQL with Docker, Dapper ORM, migrations, and slugs
-3. [Business Logic and Validation](2025-09-dotnet-rest-api-part3-validation.md) — Service layer, FluentValidation, middleware, and cancellation tokens
-4. [Authentication and Authorization](2025-09-dotnet-rest-api-part4-auth.md) — JWT tokens, claims-based authorization, and user identity
-5. [Filtering, Sorting, and Pagination](2025-09-dotnet-rest-api-part5-features.md) — Query parameters, dynamic sorting, paginated responses
-6. [Production Readiness](2025-09-dotnet-rest-api-part6-production.md) — Versioning, Swagger/OpenAPI, health checks, caching, and API key auth
+3. [Business Logic and Validation](/posts/dotnet-rest-api-part3-validation/) — Service layer, FluentValidation, middleware, and cancellation tokens
+4. [Authentication and Authorization](/posts/dotnet-rest-api-part4-auth/) — JWT tokens, claims-based authorization, and user identity
+5. [Filtering, Sorting, and Pagination](/posts/dotnet-rest-api-part5-features/) — Query parameters, dynamic sorting, paginated responses
+6. [Production Readiness](/posts/dotnet-rest-api-part6-production/) — Versioning, Swagger/OpenAPI, health checks, caching, and API key auth
 
 
 ## Introduction
 
-In [Part 1](2025-08-dotnet-rest-api-part1-foundations.md) we built a working CRUD API backed by an in-memory dictionary. That is fine for prototyping, but we need a real database for persistence, concurrency, and querying. In this part we introduce PostgreSQL running in Docker, use Dapper as a lightweight ORM, write database migrations, and add slug-based URLs for a better developer experience.
+In [Part 1](/posts/dotnet-rest-api-part1-foundations/) we built a working CRUD API backed by an in-memory dictionary. That is fine for prototyping, but we need a real database for persistence, concurrency, and querying. In this part we introduce PostgreSQL running in Docker, use Dapper as a lightweight ORM, write database migrations, and add slug-based URLs for a better developer experience.
 
 ## Adding a Slug
 
@@ -495,7 +495,7 @@ We have moved from an in-memory prototype to a real database-backed API:
 
 ## What's Next?
 
-In [Part 3: Business Logic and Validation](2025-09-dotnet-rest-api-part3-validation.md), we will introduce a service layer between the controller and repository, add FluentValidation for request validation (including async slug uniqueness checks), build validation middleware, and thread cancellation tokens through every layer.
+In [Part 3: Business Logic and Validation](/posts/dotnet-rest-api-part3-validation/), we will introduce a service layer between the controller and repository, add FluentValidation for request validation (including async slug uniqueness checks), build validation middleware, and thread cancellation tokens through every layer.
 
 ## References
 

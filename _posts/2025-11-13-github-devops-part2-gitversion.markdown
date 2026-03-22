@@ -16,9 +16,9 @@ series_part: 2
 
 ## Series Overview
 
-1. [Multiple GitHub Accounts with SSH](2025-11-github-devops-part1-multiple-accounts.md) — Configure SSH for personal and work accounts
+1. [Multiple GitHub Accounts with SSH](/posts/github-devops-part1-multiple-accounts/) — Configure SSH for personal and work accounts
 2. **Semantic Versioning with GitVersion** (this article) — Automated versioning using GitFlow
-3. [GitHub Actions Workflows](2025-11-github-devops-part3-workflows.md) — Build, version, and publish NuGet packages
+3. [GitHub Actions Workflows](/posts/github-devops-part3-workflows/) — Build, version, and publish NuGet packages
 
 
 ## The Versioning Problem
@@ -286,7 +286,7 @@ See the [full configuration reference](https://gitversion.net/docs/reference/con
 
 ## What's Next
 
-In [Part 3: GitHub Actions Workflows](2025-11-github-devops-part3-workflows.md), we'll use GitVersion inside a GitHub Actions workflow to automatically build, version, and publish NuGet packages to GitHub's package registry.
+In [Part 3: GitHub Actions Workflows](/posts/github-devops-part3-workflows/), we'll use GitVersion inside a GitHub Actions workflow to automatically build, version, and publish NuGet packages to GitHub's package registry.
 
 ## References
 

@@ -17,10 +17,10 @@ series_part: 2
 
 This is a 4-part series on Entity Framework Core and domain modeling in .NET:
 
-1. [Setup and Your First DbContext](2026-01-efcore-domain-modeling-part1-setup.md) — What is EF Core, project setup, DbContext, dependency injection, migrations
+1. [Setup and Your First DbContext](/posts/efcore-domain-modeling-part1-setup/) — What is EF Core, project setup, DbContext, dependency injection, migrations
 2. **One-to-One and One-to-Many Relationships** (this article) — Modeling relationships between entities with the Fluent API
-3. [Many-to-Many Relationships](2026-02-efcore-domain-modeling-part3-many-to-many.md) — Join tables, implicit and explicit approaches, unidirectional navigation
-4. [Seed Data and Putting It All Together](2026-02-efcore-domain-modeling-part4-seed-data.md) — Populating your database, complete model example, next steps
+3. [Many-to-Many Relationships](/posts/efcore-domain-modeling-part3-many-to-many/) — Join tables, implicit and explicit approaches, unidirectional navigation
+4. [Seed Data and Putting It All Together](/posts/efcore-domain-modeling-part4-seed-data/) — Populating your database, complete model example, next steps
 
 
 ## Introduction
@@ -300,7 +300,7 @@ As a general rule: start with conventions, and add Fluent API configuration only
 
 You now know how to model the two most fundamental relationship types in EF Core. One-to-many covers the majority of real-world associations, while one-to-one handles cases where two entities have a strict pairing.
 
-In [Part 3](2026-02-efcore-domain-modeling-part3-many-to-many.md), we'll tackle the more nuanced many-to-many relationship — including when to let EF Core manage the join table transparently and when to define an explicit join entity.
+In [Part 3](/posts/efcore-domain-modeling-part3-many-to-many/), we'll tackle the more nuanced many-to-many relationship — including when to let EF Core manage the join table transparently and when to define an explicit join entity.
 
 ## References
 

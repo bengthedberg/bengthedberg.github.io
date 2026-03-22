@@ -18,15 +18,15 @@ series_part: 2
 
 This is a four-part series exploring how to implement CQRS and domain events in .NET, from foundational concepts to production-ready validation pipelines.
 
-1. [Part 1: Domain Events for Loosely Coupled Systems](2026-05-cqrs-domain-events-part1-domain-events.md)
+1. [Part 1: Domain Events for Loosely Coupled Systems](/posts/cqrs-domain-events-part1-domain-events/)
 2. **Part 2: Building a Custom Domain Events Dispatcher** (this article)
-3. [Part 3: CQRS Pattern — Replacing MediatR](2026-06-cqrs-domain-events-part3-cqrs-pattern.md)
-4. [Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation](2026-06-cqrs-domain-events-part4-validation.md)
+3. [Part 3: CQRS Pattern — Replacing MediatR](/posts/cqrs-domain-events-part3-cqrs-pattern/)
+4. [Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation](/posts/cqrs-domain-events-part4-validation/)
 
 
 ## Introduction
 
-In [Part 1](2026-05-cqrs-domain-events-part1-domain-events.md), we used MediatR to dispatch domain events. MediatR is a solid library, but it is a third-party dependency — and for something as fundamental as event dispatching, you may want full control over the implementation.
+In [Part 1](/posts/cqrs-domain-events-part1-domain-events/), we used MediatR to dispatch domain events. MediatR is a solid library, but it is a third-party dependency — and for something as fundamental as event dispatching, you may want full control over the implementation.
 
 In this article, we will build a lightweight, custom domain event dispatcher using nothing but .NET's built-in dependency injection. The core dispatching logic will have zero external dependencies. You will understand every line of code, which makes debugging and customization straightforward.
 
@@ -276,7 +276,7 @@ public class UserController(
 }
 ```
 
-You could also integrate the dispatcher into your EF Core `SaveChangesAsync` override, as we discussed in [Part 1](2026-05-cqrs-domain-events-part1-domain-events.md), to automatically dispatch events from your domain entities.
+You could also integrate the dispatcher into your EF Core `SaveChangesAsync` override, as we discussed in [Part 1](/posts/cqrs-domain-events-part1-domain-events/), to automatically dispatch events from your domain entities.
 
 ## Limitations and Trade-offs
 
@@ -298,7 +298,7 @@ For systems requiring bulletproof reliability or cross-service communication, in
 
 ## What's Next?
 
-In [Part 3: CQRS Pattern — Replacing MediatR](2026-06-cqrs-domain-events-part3-cqrs-pattern.md), we will go beyond event dispatching and build a complete CQRS pipeline with commands, queries, and decorators — all without MediatR.
+In [Part 3: CQRS Pattern — Replacing MediatR](/posts/cqrs-domain-events-part3-cqrs-pattern/), we will go beyond event dispatching and build a complete CQRS pipeline with commands, queries, and decorators — all without MediatR.
 
 ## References
 

@@ -18,14 +18,14 @@ series_part: 3
 
 This is a three-part series on building observable .NET applications, from structured logging through request tracing to full distributed tracing with OpenTelemetry.
 
-1. [Part 1: Structured Logging with Serilog](./2026-04-dotnet-observability-part1-serilog.md)
-2. [Part 2: Better Request Tracing with User Context](./2026-05-dotnet-observability-part2-request-tracing.md)
+1. [Part 1: Structured Logging with Serilog](/posts/dotnet-observability-part1-serilog/)
+2. [Part 2: Better Request Tracing with User Context](/posts/dotnet-observability-part2-request-tracing/)
 3. **Part 3: Distributed Tracing with OpenTelemetry** (this article)
 
 
 ## The Challenge of Distributed Systems
 
-In [Part 1](./2026-04-dotnet-observability-part1-serilog.md), we set up structured logging. In [Part 2](./2026-05-dotnet-observability-part2-request-tracing.md), we enriched our logs with user context. These are powerful tools, but they operate within the boundary of a single application.
+In [Part 1](/posts/dotnet-observability-part1-serilog/), we set up structured logging. In [Part 2](/posts/dotnet-observability-part2-request-tracing/), we enriched our logs with user context. These are powerful tools, but they operate within the boundary of a single application.
 
 Modern systems are rarely a single application. A user's request might hit an API gateway, which calls a backend service, which queries a database, publishes a message to a bus, and triggers processing in two other services. When something goes wrong, or when performance degrades, you need to see the entire picture — not just one service's perspective.
 

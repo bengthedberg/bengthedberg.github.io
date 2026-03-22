@@ -20,11 +20,11 @@ series_part: 6
 
 This is a 6-part series on building a production-ready REST API with .NET:
 
-1. [Project Setup, Contracts, and Controllers](2025-08-dotnet-rest-api-part1-foundations.md) — Solution structure, contracts, repository pattern, controllers, and mapping
-2. [Database Integration with Dapper](2025-08-dotnet-rest-api-part2-database.md) — PostgreSQL with Docker, Dapper ORM, migrations, and slugs
-3. [Business Logic and Validation](2025-09-dotnet-rest-api-part3-validation.md) — Service layer, FluentValidation, middleware, and cancellation tokens
-4. [Authentication and Authorization](2025-09-dotnet-rest-api-part4-auth.md) — JWT tokens, claims-based authorization, and user identity
-5. [Filtering, Sorting, and Pagination](2025-09-dotnet-rest-api-part5-features.md) — Query parameters, dynamic sorting, paginated responses
+1. [Project Setup, Contracts, and Controllers](/posts/dotnet-rest-api-part1-foundations/) — Solution structure, contracts, repository pattern, controllers, and mapping
+2. [Database Integration with Dapper](/posts/dotnet-rest-api-part2-database/) — PostgreSQL with Docker, Dapper ORM, migrations, and slugs
+3. [Business Logic and Validation](/posts/dotnet-rest-api-part3-validation/) — Service layer, FluentValidation, middleware, and cancellation tokens
+4. [Authentication and Authorization](/posts/dotnet-rest-api-part4-auth/) — JWT tokens, claims-based authorization, and user identity
+5. [Filtering, Sorting, and Pagination](/posts/dotnet-rest-api-part5-features/) — Query parameters, dynamic sorting, paginated responses
 6. **Production Readiness** (this article) — Versioning, Swagger/OpenAPI, health checks, caching, and API key auth
 
 

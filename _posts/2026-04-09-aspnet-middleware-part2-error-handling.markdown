@@ -15,16 +15,16 @@ series_part: 2
 
 ## Series Overview
 
-- [Part 1: Custom Middleware](2026-04-aspnet-middleware-part1-custom-middleware.md)
+- [Part 1: Custom Middleware](/posts/aspnet-middleware-part1-custom-middleware/)
 - **Part 2: Global Error Handling** (this article)
-- [Part 3: Problem Details](2026-04-aspnet-middleware-part3-problem-details.md)
+- [Part 3: Problem Details](/posts/aspnet-middleware-part3-problem-details/)
 
 
 ## Introduction
 
 Exceptions are for exceptional situations — but they will inevitably happen in your applications. Database connections drop, external services time out, and invalid state slips through. When an unhandled exception escapes your endpoint code, you need a safety net that catches it, logs it, and returns a meaningful response to the caller.
 
-In [Part 1](2026-04-aspnet-middleware-part1-custom-middleware.md) we learned how to build custom middleware. In this article we will apply that knowledge to implement global exception handling. We will cover two approaches: the traditional custom middleware technique and the newer `IExceptionHandler` interface introduced in ASP.NET Core 8.
+In [Part 1](/posts/aspnet-middleware-part1-custom-middleware/) we learned how to build custom middleware. In this article we will apply that knowledge to implement global exception handling. We will cover two approaches: the traditional custom middleware technique and the newer `IExceptionHandler` interface introduced in ASP.NET Core 8.
 
 ## The Traditional Approach: Exception Handling Middleware
 
@@ -138,7 +138,7 @@ builder.Services.AddProblemDetails();
 app.UseExceptionHandler();
 ```
 
-Note the call to `AddProblemDetails()` — this registers services that generate Problem Details responses for common exceptions. We will explore this in depth in [Part 3](2026-04-aspnet-middleware-part3-problem-details.md).
+Note the call to `AddProblemDetails()` — this registers services that generate Problem Details responses for common exceptions. We will explore this in depth in [Part 3](/posts/aspnet-middleware-part3-problem-details/).
 
 One important detail: `IExceptionHandler` implementations are registered as singletons. Be careful about injecting scoped or transient services into them.
 
@@ -254,7 +254,7 @@ While chaining exception handlers by exception type is a powerful pattern, be th
 
 ## What's Next?
 
-Both approaches in this article return Problem Details responses, but we have only scratched the surface of what Problem Details can do. In [Part 3: Problem Details](2026-04-aspnet-middleware-part3-problem-details.md), we will explore the Problem Details specification in depth, learn how to customize responses with `IProblemDetailsService`, and see the new `StatusCodeSelector` feature in .NET 9.
+Both approaches in this article return Problem Details responses, but we have only scratched the surface of what Problem Details can do. In [Part 3: Problem Details](/posts/aspnet-middleware-part3-problem-details/), we will explore the Problem Details specification in depth, learn how to customize responses with `IProblemDetailsService`, and see the new `StatusCodeSelector` feature in .NET 9.
 
 ## References
 

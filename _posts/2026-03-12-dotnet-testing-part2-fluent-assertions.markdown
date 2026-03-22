@@ -17,9 +17,9 @@ series_part: 2
 
 This is a 3-part series on testing .NET applications:
 
-1. [Getting Started with xUnit.net](2026-03-dotnet-testing-part1-xunit.md) — Project setup, writing tests, data-driven tests, fixtures, parallelism, and advanced features
+1. [Getting Started with xUnit.net](/posts/dotnet-testing-part1-xunit/) — Project setup, writing tests, data-driven tests, fixtures, parallelism, and advanced features
 2. **Writing Readable Tests with Fluent Assertions** (this article) — Natural-language assertions, clearer failure messages, and custom assertions
-3. [Integration Testing with Testcontainers](2026-03-dotnet-testing-part3-testcontainers.md) — Testing against real databases using Docker containers and CI setup
+3. [Integration Testing with Testcontainers](/posts/dotnet-testing-part3-testcontainers/) — Testing against real databases using Docker containers and CI setup
 
 
 ## Why Fluent Assertions?
@@ -300,7 +300,7 @@ The pattern is:
 
 ## What's Next?
 
-Fluent Assertions makes your unit tests readable and your failure messages actionable. But what about integration tests that need real infrastructure? In [Part 3](2026-03-dotnet-testing-part3-testcontainers.md), we'll use **Testcontainers** to spin up real PostgreSQL databases in Docker for true integration testing — no mocks required.
+Fluent Assertions makes your unit tests readable and your failure messages actionable. But what about integration tests that need real infrastructure? In [Part 3](/posts/dotnet-testing-part3-testcontainers/), we'll use **Testcontainers** to spin up real PostgreSQL databases in Docker for true integration testing — no mocks required.
 
 ## References
 

@@ -19,9 +19,9 @@ series_part: 4
 
 This is a four-part series exploring how to implement CQRS and domain events in .NET, from foundational concepts to production-ready validation pipelines.
 
-1. [Part 1: Domain Events for Loosely Coupled Systems](2026-05-cqrs-domain-events-part1-domain-events.md)
-2. [Part 2: Building a Custom Domain Events Dispatcher](2026-06-cqrs-domain-events-part2-dispatcher.md)
-3. [Part 3: CQRS Pattern — Replacing MediatR](2026-06-cqrs-domain-events-part3-cqrs-pattern.md)
+1. [Part 1: Domain Events for Loosely Coupled Systems](/posts/cqrs-domain-events-part1-domain-events/)
+2. [Part 2: Building a Custom Domain Events Dispatcher](/posts/cqrs-domain-events-part2-dispatcher/)
+3. [Part 3: CQRS Pattern — Replacing MediatR](/posts/cqrs-domain-events-part3-cqrs-pattern/)
 4. **Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation** (this article)
 
 
@@ -173,7 +173,7 @@ This works, but it forces you to add an explicit `IValidator` dependency to *eve
 
 ## Building a Generic Validation Pipeline
 
-The real power comes from implementing validation as a cross-cutting concern that applies to all commands automatically. With MediatR, you use `IPipelineBehavior`. With the custom CQRS approach from [Part 3](2026-06-cqrs-domain-events-part3-cqrs-pattern.md), you use the decorator pattern.
+The real power comes from implementing validation as a cross-cutting concern that applies to all commands automatically. With MediatR, you use `IPipelineBehavior`. With the custom CQRS approach from [Part 3](/posts/cqrs-domain-events-part3-cqrs-pattern/), you use the decorator pattern.
 
 Here is a complete `ValidationBehavior` implementation using MediatR's pipeline:
 
@@ -289,7 +289,7 @@ This converts validation failures into RFC 7807-compliant `ProblemDetails` respo
 
 ## Adapting for Custom CQRS (Without MediatR)
 
-If you followed [Part 3](2026-06-cqrs-domain-events-part3-cqrs-pattern.md) and built your own CQRS pipeline, you do not have `IPipelineBehavior`. Instead, you use the decorator pattern to achieve the same result.
+If you followed [Part 3](/posts/cqrs-domain-events-part3-cqrs-pattern/) and built your own CQRS pipeline, you do not have `IPipelineBehavior`. Instead, you use the decorator pattern to achieve the same result.
 
 The validation decorator we showed in Part 3 does exactly the same thing as the `ValidationBehavior` above — it wraps the handler, runs all registered validators, and short-circuits if validation fails. The only difference is the wiring mechanism:
 

@@ -16,9 +16,9 @@ series_part: 4
 
 ## Series Overview
 
-1. [Getting Started](2025-09-vscode-csharp-part1-getting-started.md) — Installation, UI tour, Git integration
-2. [Developing C# Apps](2025-09-vscode-csharp-part2-developing.md) — Extensions, editing, IntelliSense, NuGet
-3. [Debugging](2025-10-vscode-csharp-part3-debugging.md) — Breakpoints, configurations, attach to process
+1. [Getting Started](/posts/vscode-csharp-part1-getting-started/) — Installation, UI tour, Git integration
+2. [Developing C# Apps](/posts/vscode-csharp-part2-developing/) — Extensions, editing, IntelliSense, NuGet
+3. [Debugging](/posts/vscode-csharp-part3-debugging/) — Breakpoints, configurations, attach to process
 4. **Productivity** (this article) — Keyboard shortcuts, tasks, workflow optimisation
 
 

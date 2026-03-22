@@ -17,9 +17,9 @@ series_part: 4
 
 This is a 4-part series on Entity Framework Core and domain modeling in .NET:
 
-1. [Setup and Your First DbContext](2026-01-efcore-domain-modeling-part1-setup.md) — What is EF Core, project setup, DbContext, dependency injection, migrations
-2. [One-to-One and One-to-Many Relationships](2026-02-efcore-domain-modeling-part2-relationships.md) — Modeling relationships between entities with the Fluent API
-3. [Many-to-Many Relationships](2026-02-efcore-domain-modeling-part3-many-to-many.md) — Join tables, implicit and explicit approaches, unidirectional navigation
+1. [Setup and Your First DbContext](/posts/efcore-domain-modeling-part1-setup/) — What is EF Core, project setup, DbContext, dependency injection, migrations
+2. [One-to-One and One-to-Many Relationships](/posts/efcore-domain-modeling-part2-relationships/) — Modeling relationships between entities with the Fluent API
+3. [Many-to-Many Relationships](/posts/efcore-domain-modeling-part3-many-to-many/) — Join tables, implicit and explicit approaches, unidirectional navigation
 4. **Seed Data and Putting It All Together** (this article) — Populating your database, complete model example, next steps
 
 

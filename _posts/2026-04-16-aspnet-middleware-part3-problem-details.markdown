@@ -15,8 +15,8 @@ series_part: 3
 
 ## Series Overview
 
-- [Part 1: Custom Middleware](2026-04-aspnet-middleware-part1-custom-middleware.md)
-- [Part 2: Global Error Handling](2026-04-aspnet-middleware-part2-error-handling.md)
+- [Part 1: Custom Middleware](/posts/aspnet-middleware-part1-custom-middleware/)
+- [Part 2: Global Error Handling](/posts/aspnet-middleware-part2-error-handling/)
 - **Part 3: Problem Details** (this article)
 
 
@@ -95,7 +95,7 @@ Content-Type: application/problem+json
 
 ## Integrating with IExceptionHandler
 
-As we covered in [Part 2](2026-04-aspnet-middleware-part2-error-handling.md), the `IExceptionHandler` interface lets you map specific exception types to appropriate HTTP status codes. Here is a handler that uses pattern matching to determine the status code:
+As we covered in [Part 2](/posts/aspnet-middleware-part2-error-handling/), the `IExceptionHandler` interface lets you map specific exception types to appropriate HTTP status codes. Here is a handler that uses pattern matching to determine the status code:
 
 ```csharp
 internal sealed class CustomExceptionHandler : IExceptionHandler

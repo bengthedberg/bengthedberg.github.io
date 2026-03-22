@@ -18,8 +18,8 @@ series_part: 1
 This is a 3-part series on testing .NET applications:
 
 1. **Getting Started with xUnit.net** (this article) — Project setup, writing tests, data-driven tests, fixtures, parallelism, and advanced features
-2. [Writing Readable Tests with Fluent Assertions](2026-03-dotnet-testing-part2-fluent-assertions.md) — Natural-language assertions, clearer failure messages, and custom assertions
-3. [Integration Testing with Testcontainers](2026-03-dotnet-testing-part3-testcontainers.md) — Testing against real databases using Docker containers and CI setup
+2. [Writing Readable Tests with Fluent Assertions](/posts/dotnet-testing-part2-fluent-assertions/) — Natural-language assertions, clearer failure messages, and custom assertions
+3. [Integration Testing with Testcontainers](/posts/dotnet-testing-part3-testcontainers/) — Testing against real databases using Docker containers and CI setup
 
 
 ## Why xUnit.net?
@@ -430,7 +430,7 @@ dotnet test --framework net8.0 # Runs against a specific target
 
 ## What's Next?
 
-xUnit gives you a solid foundation, but the built-in `Assert` API can be verbose and produce unhelpful failure messages. In [Part 2](2026-03-dotnet-testing-part2-fluent-assertions.md), we'll add **Fluent Assertions** to make tests read like English and get much better error output when things fail.
+xUnit gives you a solid foundation, but the built-in `Assert` API can be verbose and produce unhelpful failure messages. In [Part 2](/posts/dotnet-testing-part2-fluent-assertions/), we'll add **Fluent Assertions** to make tests read like English and get much better error output when things fail.
 
 ## References
 

@@ -16,8 +16,8 @@ series_part: 3
 
 ## Series Overview
 
-1. [Multiple GitHub Accounts with SSH](2025-11-github-devops-part1-multiple-accounts.md) — Configure SSH for personal and work accounts
-2. [Semantic Versioning with GitVersion](2025-11-github-devops-part2-gitversion.md) — Automated versioning using GitFlow
+1. [Multiple GitHub Accounts with SSH](/posts/github-devops-part1-multiple-accounts/) — Configure SSH for personal and work accounts
+2. [Semantic Versioning with GitVersion](/posts/github-devops-part2-gitversion/) — Automated versioning using GitFlow
 3. **GitHub Actions Workflows** (this article) — Build, version, and publish NuGet packages
 
 
@@ -26,7 +26,7 @@ series_part: 3
 In this article, we'll create a complete CI/CD pipeline that:
 
 1. Builds a .NET class library on every push
-2. Calculates the version number automatically using GitVersion (from [Part 2](2025-11-github-devops-part2-gitversion.md))
+2. Calculates the version number automatically using GitVersion (from [Part 2](/posts/github-devops-part2-gitversion/))
 3. Packs it as a NuGet package
 4. Publishes it to GitHub's NuGet package registry
 5. Creates a GitHub Release with the package attached
@@ -90,7 +90,7 @@ Update `src/Greetings.Nuget.Demo/Greetings.Nuget.Demo.csproj`:
 
 ## Step 4: Set Up GitVersion
 
-Initialise GitVersion with GitFlow and continuous delivery mode (see [Part 2](2025-11-github-devops-part2-gitversion.md) for details):
+Initialise GitVersion with GitFlow and continuous delivery mode (see [Part 2](/posts/github-devops-part2-gitversion/) for details):
 
 ```bash
 dotnet-gitversion init

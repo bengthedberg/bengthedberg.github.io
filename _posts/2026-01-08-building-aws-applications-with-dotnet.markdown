@@ -1091,7 +1091,7 @@ jobs:
 ### GitHub Repository Setup
 
 Each environment needs these secrets configured:
-- `AWS_IAM_ROLE` — the OIDC role ARN (see [Connecting GitHub Actions to AWS](../2025-12-connecting-github-actions-with-aws.md))
+- `AWS_IAM_ROLE` — the OIDC role ARN (see [Connecting GitHub Actions to AWS](/posts/connecting-github-actions-with-aws/))
 - `AWS_ACCOUNT_ID` — the target AWS account
 
 Set up branch protection on `main`:

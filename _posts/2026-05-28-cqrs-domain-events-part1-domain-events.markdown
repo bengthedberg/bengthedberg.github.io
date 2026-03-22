@@ -19,9 +19,9 @@ series_part: 1
 This is a four-part series exploring how to implement CQRS and domain events in .NET, from foundational concepts to production-ready validation pipelines.
 
 1. **Part 1: Domain Events for Loosely Coupled Systems** (this article)
-2. [Part 2: Building a Custom Domain Events Dispatcher](2026-06-cqrs-domain-events-part2-dispatcher.md)
-3. [Part 3: CQRS Pattern — Replacing MediatR](2026-06-cqrs-domain-events-part3-cqrs-pattern.md)
-4. [Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation](2026-06-cqrs-domain-events-part4-validation.md)
+2. [Part 2: Building a Custom Domain Events Dispatcher](/posts/cqrs-domain-events-part2-dispatcher/)
+3. [Part 3: CQRS Pattern — Replacing MediatR](/posts/cqrs-domain-events-part3-cqrs-pattern/)
+4. [Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation](/posts/cqrs-domain-events-part4-validation/)
 
 
 ## Introduction
@@ -231,7 +231,7 @@ In this article we relied on MediatR for dispatching. But what if you want to el
 
 ## What's Next?
 
-In [Part 2: Building a Custom Domain Events Dispatcher](2026-06-cqrs-domain-events-part2-dispatcher.md), we will build a custom, strongly-typed domain event dispatcher from scratch — no third-party libraries required for the core dispatching logic.
+In [Part 2: Building a Custom Domain Events Dispatcher](/posts/cqrs-domain-events-part2-dispatcher/), we will build a custom, strongly-typed domain event dispatcher from scratch — no third-party libraries required for the core dispatching logic.
 
 ## References
 

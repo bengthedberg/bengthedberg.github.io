@@ -18,10 +18,10 @@ series_part: 3
 
 This is a four-part series exploring how to implement CQRS and domain events in .NET, from foundational concepts to production-ready validation pipelines.
 
-1. [Part 1: Domain Events for Loosely Coupled Systems](2026-05-cqrs-domain-events-part1-domain-events.md)
-2. [Part 2: Building a Custom Domain Events Dispatcher](2026-06-cqrs-domain-events-part2-dispatcher.md)
+1. [Part 1: Domain Events for Loosely Coupled Systems](/posts/cqrs-domain-events-part1-domain-events/)
+2. [Part 2: Building a Custom Domain Events Dispatcher](/posts/cqrs-domain-events-part2-dispatcher/)
 3. **Part 3: CQRS Pattern — Replacing MediatR** (this article)
-4. [Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation](2026-06-cqrs-domain-events-part4-validation.md)
+4. [Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation](/posts/cqrs-domain-events-part4-validation/)
 
 
 ## Introduction
@@ -300,7 +300,7 @@ The decorator pattern gives you the same cross-cutting concern support that Medi
 
 ## What's Next?
 
-In [Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation](2026-06-cqrs-domain-events-part4-validation.md), we will take a deep dive into validation as a cross-cutting concern — exploring input vs. business validation, building a generic validation pipeline, and handling validation errors gracefully in your API.
+In [Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation](/posts/cqrs-domain-events-part4-validation/), we will take a deep dive into validation as a cross-cutting concern — exploring input vs. business validation, building a generic validation pipeline, and handling validation errors gracefully in your API.
 
 ## References
 

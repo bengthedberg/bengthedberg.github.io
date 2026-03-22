@@ -71,7 +71,7 @@ Tip: One install you can enforce code formatting when saving document. Go to Too
 
 Create code style preferences in an .editorconfig file, and the [EditorConfig Language Service](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) is the extension that makes writing those files a breeze.
 
-[The EditorConfig Project](http://editorconfig.org/) helps developers define and maintain consistent coding styles between different editors, but it doesn't give language support for editing those files. This extension provides that capability.
+[The EditorConfig Project](https://editorconfig.org/) helps developers define and maintain consistent coding styles between different editors, but it doesn't give language support for editing those files. This extension provides that capability.
 
 
 

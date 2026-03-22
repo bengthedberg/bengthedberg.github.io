@@ -15,8 +15,8 @@ series_part: 1
 ## Series Overview
 
 - **Part 1: Custom Middleware** (this article)
-- [Part 2: Global Error Handling](2026-04-aspnet-middleware-part2-error-handling.md)
-- [Part 3: Problem Details](2026-04-aspnet-middleware-part3-problem-details.md)
+- [Part 2: Global Error Handling](/posts/aspnet-middleware-part2-error-handling/)
+- [Part 3: Problem Details](/posts/aspnet-middleware-part3-problem-details/)
 
 
 ## Introduction
@@ -138,7 +138,7 @@ The factory-based approach with `IMiddleware` has a practical advantage worth hi
 
 ## What's Next?
 
-Now that you know how to build custom middleware, the next logical step is to use it for one of the most important cross-cutting concerns in any API: error handling. In [Part 2: Global Error Handling](2026-04-aspnet-middleware-part2-error-handling.md), we will build an exception-handling middleware and explore the `IExceptionHandler` interface introduced in ASP.NET Core 8.
+Now that you know how to build custom middleware, the next logical step is to use it for one of the most important cross-cutting concerns in any API: error handling. In [Part 2: Global Error Handling](/posts/aspnet-middleware-part2-error-handling/), we will build an exception-handling middleware and explore the `IExceptionHandler` interface introduced in ASP.NET Core 8.
 
 ## References
 

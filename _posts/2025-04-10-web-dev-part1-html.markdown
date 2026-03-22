@@ -17,13 +17,13 @@ series_part: 1
 This is an 8-part series covering the core technologies of web development:
 
 1. **HTML — The Structure of the Web** (this article) — Elements, attributes, block vs inline, and document structure
-2. [CSS — Styling the Web](2025-04-web-dev-part2-css.md) — Selectors, properties, the box model, and layout basics
-3. [JavaScript — Adding Interactivity](2025-05-web-dev-part3-javascript.md) — Variables, data types, functions, arrays, and control flow
-4. [The DOM — Connecting JavaScript to HTML](2025-05-web-dev-part4-dom.md) — Selecting elements, changing styles, and modifying attributes
-5. [jQuery — Write Less, Do More](2025-06-web-dev-part5-jquery.md) — Selectors, events, and DOM manipulation with jQuery
-6. [Bootstrap — Responsive Layouts Made Easy](2025-06-web-dev-part6-bootstrap.md) — Grid system, responsive breakpoints, and rapid prototyping
-7. [HTTP — How the Web Communicates](2025-07-web-dev-part7-http.md) — Requests, responses, methods, and status codes
-8. [React — Building Modern User Interfaces](2025-07-web-dev-part8-react.md) — Components, JSX, props, state, hooks, and thinking in React
+2. [CSS — Styling the Web](/posts/web-dev-part2-css/) — Selectors, properties, the box model, and layout basics
+3. [JavaScript — Adding Interactivity](/posts/web-dev-part3-javascript/) — Variables, data types, functions, arrays, and control flow
+4. [The DOM — Connecting JavaScript to HTML](/posts/web-dev-part4-dom/) — Selecting elements, changing styles, and modifying attributes
+5. [jQuery — Write Less, Do More](/posts/web-dev-part5-jquery/) — Selectors, events, and DOM manipulation with jQuery
+6. [Bootstrap — Responsive Layouts Made Easy](/posts/web-dev-part6-bootstrap/) — Grid system, responsive breakpoints, and rapid prototyping
+7. [HTTP — How the Web Communicates](/posts/web-dev-part7-http/) — Requests, responses, methods, and status codes
+8. [React — Building Modern User Interfaces](/posts/web-dev-part8-react/) — Components, JSX, props, state, hooks, and thinking in React
 
 
 ## What Is HTML?
@@ -165,11 +165,11 @@ The `title` attribute provides **advisory text** displayed as a tooltip when the
 
 ### The `style` Attribute
 
-The `style` attribute allows you to specify CSS styling rules directly on an element. However, best practice is to keep CSS separate from HTML — which we'll cover in [Part 2](2025-04-web-dev-part2-css.md).
+The `style` attribute allows you to specify CSS styling rules directly on an element. However, best practice is to keep CSS separate from HTML — which we'll cover in [Part 2](/posts/web-dev-part2-css/).
 
 ## What's Next?
 
-HTML provides the structure of a web page, but on its own it looks plain. In [Part 2](2025-04-web-dev-part2-css.md), we'll add **CSS** to control how HTML elements look — colours, fonts, spacing, and layout.
+HTML provides the structure of a web page, but on its own it looks plain. In [Part 2](/posts/web-dev-part2-css/), we'll add **CSS** to control how HTML elements look — colours, fonts, spacing, and layout.
 
 ## References
 

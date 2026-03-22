@@ -15,15 +15,15 @@ series_part: 3
 
 ## Series Overview
 
-1. [Getting Started](2025-09-vscode-csharp-part1-getting-started.md) — Installation, UI tour, Git integration
-2. [Developing C# Apps](2025-09-vscode-csharp-part2-developing.md) — Extensions, editing, IntelliSense, NuGet
+1. [Getting Started](/posts/vscode-csharp-part1-getting-started/) — Installation, UI tour, Git integration
+2. [Developing C# Apps](/posts/vscode-csharp-part2-developing/) — Extensions, editing, IntelliSense, NuGet
 3. **Debugging** (this article) — Breakpoints, configurations, web app debugging, attach to process
-4. [Productivity](2025-10-vscode-csharp-part4-productivity.md) — Keyboard shortcuts, tasks, workflow optimisation
+4. [Productivity](/posts/vscode-csharp-part4-productivity/) — Keyboard shortcuts, tasks, workflow optimisation
 
 
 ## Setup
 
-Debugging in VS Code requires the C# Dev Kit extension (see [Part 2](2025-09-vscode-csharp-part2-developing.md)) and a `.vscode` directory with debug assets.
+Debugging in VS Code requires the C# Dev Kit extension (see [Part 2](/posts/vscode-csharp-part2-developing/)) and a `.vscode` directory with debug assets.
 
 When you first open a C# project, VS Code prompts you to generate these assets:
 
@@ -201,4 +201,4 @@ The Debug Console (`` Ctrl+Shift+Y ``) lets you evaluate expressions while pause
 
 ## What's Next
 
-In [Part 4: Productivity](2025-10-vscode-csharp-part4-productivity.md), we'll cover the keyboard shortcuts and task configurations that make VS Code a productivity powerhouse for C# development.
+In [Part 4: Productivity](/posts/vscode-csharp-part4-productivity/), we'll cover the keyboard shortcuts and task configurations that make VS Code a productivity powerhouse for C# development.

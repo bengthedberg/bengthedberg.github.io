@@ -18,17 +18,17 @@ series_part: 4
 
 This is a 6-part series on building a production-ready REST API with .NET:
 
-1. [Project Setup, Contracts, and Controllers](2025-08-dotnet-rest-api-part1-foundations.md) — Solution structure, contracts, repository pattern, controllers, and mapping
-2. [Database Integration with Dapper](2025-08-dotnet-rest-api-part2-database.md) — PostgreSQL with Docker, Dapper ORM, migrations, and slugs
-3. [Business Logic and Validation](2025-09-dotnet-rest-api-part3-validation.md) — Service layer, FluentValidation, middleware, and cancellation tokens
+1. [Project Setup, Contracts, and Controllers](/posts/dotnet-rest-api-part1-foundations/) — Solution structure, contracts, repository pattern, controllers, and mapping
+2. [Database Integration with Dapper](/posts/dotnet-rest-api-part2-database/) — PostgreSQL with Docker, Dapper ORM, migrations, and slugs
+3. [Business Logic and Validation](/posts/dotnet-rest-api-part3-validation/) — Service layer, FluentValidation, middleware, and cancellation tokens
 4. **Authentication and Authorization** (this article) — JWT tokens, claims-based authorization, and user identity
-5. [Filtering, Sorting, and Pagination](2025-09-dotnet-rest-api-part5-features.md) — Query parameters, dynamic sorting, paginated responses
-6. [Production Readiness](2025-09-dotnet-rest-api-part6-production.md) — Versioning, Swagger/OpenAPI, health checks, caching, and API key auth
+5. [Filtering, Sorting, and Pagination](/posts/dotnet-rest-api-part5-features/) — Query parameters, dynamic sorting, paginated responses
+6. [Production Readiness](/posts/dotnet-rest-api-part6-production/) — Versioning, Swagger/OpenAPI, health checks, caching, and API key auth
 
 
 ## Introduction
 
-In [Part 3](2025-09-dotnet-rest-api-part3-validation.md) we added validation and a service layer. But right now, anyone can create, update, or delete movies. We need to control who can access what. In this part we add JWT-based authentication (proving who you are) and claims-based authorization (controlling what you can do).
+In [Part 3](/posts/dotnet-rest-api-part3-validation/) we added validation and a service layer. But right now, anyone can create, update, or delete movies. We need to control who can access what. In this part we add JWT-based authentication (proving who you are) and claims-based authorization (controlling what you can do).
 
 ## JWT Concepts
 
@@ -414,7 +414,7 @@ The key insight is the separation: authentication (proving identity) and authori
 
 ## What's Next?
 
-In [Part 5: Filtering, Sorting, and Pagination](2025-09-dotnet-rest-api-part5-features.md), we will add query parameters for filtering movies by title and year, dynamic sorting by any field, and paginated responses with metadata.
+In [Part 5: Filtering, Sorting, and Pagination](/posts/dotnet-rest-api-part5-features/), we will add query parameters for filtering movies by title and year, dynamic sorting by any field, and paginated responses with metadata.
 
 ## References
 
