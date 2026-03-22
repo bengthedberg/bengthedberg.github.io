@@ -2,6 +2,7 @@
 layout: post
 title: ".NET Observability — Part 1: Structured Logging with Serilog"
 date: 2026-04-30 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - observability

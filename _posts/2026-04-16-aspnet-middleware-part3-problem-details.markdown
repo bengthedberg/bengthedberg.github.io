@@ -2,6 +2,7 @@
 layout: post
 title: "ASP.NET Core Middleware & Error Handling — Part 3: Problem Details"
 date: 2026-04-16 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - aspnet

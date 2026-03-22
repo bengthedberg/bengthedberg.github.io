@@ -2,6 +2,7 @@
 layout: post
 title: "Building a REST API with .NET — Part 5: Filtering, Sorting, and Pagination"
 date: 2025-09-18 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - rest-api

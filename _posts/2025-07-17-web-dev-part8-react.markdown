@@ -2,6 +2,7 @@
 layout: post
 title: "Web Development Fundamentals — Part 8: React — Building Modern User Interfaces"
 date: 2025-07-17 00:00:00 +0000
+categories: [Web Development]
 tags:
   - web
   - react

@@ -2,6 +2,7 @@
 layout: post
 title: "Introduction to EF Core and Domain Modeling — Part 3: Many-to-Many Relationships"
 date: 2026-02-12 00:00:00 +0000
+categories: [.NET]
 tags:
   - efcore
   - dotnet

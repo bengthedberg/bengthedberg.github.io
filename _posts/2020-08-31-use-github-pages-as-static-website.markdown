@@ -2,7 +2,7 @@
 layout: post
 title:  "Use GitHub Pages as Static WebSite"
 date:   2020-08-31 14:21:47 +1000
-categories: GitHub 
+categories: [Web Development, DevOps]
 tags:
 - github
 - documentation

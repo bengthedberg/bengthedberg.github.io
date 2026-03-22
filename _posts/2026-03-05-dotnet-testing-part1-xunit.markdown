@@ -2,6 +2,7 @@
 layout: post
 title: ".NET Testing — Part 1: Getting Started with xUnit.net"
 date: 2026-03-05 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - testing

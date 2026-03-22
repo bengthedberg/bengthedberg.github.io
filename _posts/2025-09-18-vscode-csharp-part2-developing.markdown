@@ -2,6 +2,7 @@
 layout: post
 title: "C# Development with VS Code — Part 2: Developing C# Apps"
 date: 2025-09-18 00:00:00 +0000
+categories: [Developer Tools, .NET]
 tags:
   - csharp
   - vscode

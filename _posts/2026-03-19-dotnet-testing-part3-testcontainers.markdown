@@ -2,6 +2,7 @@
 layout: post
 title: ".NET Testing — Part 3: Integration Testing with Testcontainers"
 date: 2026-03-19 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - testing

@@ -2,6 +2,7 @@
 layout: post
 title: "Understanding TCP/IP Networking: IP Addresses, Subnets, and Routing"
 date: 2025-08-07 00:00:00 +0000
+categories: [Networking]
 tags:
   - networking
   - tcp-ip

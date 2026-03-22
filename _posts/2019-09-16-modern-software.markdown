@@ -2,7 +2,7 @@
 layout: post
 title:  "Modern Software"
 date:   2019-09-16 14:21:47 +1000
-categories: General 
+categories: [Software Engineering]
 tags:
 - Attitudes
 ---

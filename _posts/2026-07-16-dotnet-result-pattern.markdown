@@ -2,6 +2,7 @@
 layout: post
 title: "The Result Pattern: Functional Error Handling in .NET"
 date: 2026-07-16 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - result-pattern

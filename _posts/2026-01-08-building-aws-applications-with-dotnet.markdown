@@ -2,6 +2,7 @@
 layout: post
 title: "Building AWS Applications with .NET 10: A Clean Architecture Template"
 date: 2026-01-08 00:00:00 +0000
+categories: [Cloud (AWS), .NET]
 tags:
   - aws
   - dotnet

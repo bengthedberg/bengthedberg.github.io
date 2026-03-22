@@ -2,6 +2,7 @@
 layout: post
 title: "GitHub DevOps — Part 2: Semantic Versioning with GitVersion"
 date: 2025-11-13 00:00:00 +0000
+categories: [DevOps]
 tags:
   - github
   - gitversion

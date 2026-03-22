@@ -2,6 +2,7 @@
 layout: post
 title: "C# Development with VS Code — Part 1: Getting Started"
 date: 2025-09-04 00:00:00 +0000
+categories: [Developer Tools, .NET]
 tags:
   - csharp
   - vscode

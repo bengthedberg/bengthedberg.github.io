@@ -2,6 +2,7 @@
 layout: post
 title: "ASP.NET Core Middleware & Error Handling — Part 1: Custom Middleware"
 date: 2026-04-02 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - aspnet

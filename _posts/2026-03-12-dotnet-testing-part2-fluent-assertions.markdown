@@ -2,6 +2,7 @@
 layout: post
 title: ".NET Testing — Part 2: Writing Readable Tests with Fluent Assertions"
 date: 2026-03-12 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - testing

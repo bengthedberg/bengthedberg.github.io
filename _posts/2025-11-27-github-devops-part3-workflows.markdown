@@ -2,6 +2,7 @@
 layout: post
 title: "GitHub DevOps — Part 3: Build and Publish NuGet Packages with GitHub Actions"
 date: 2025-11-27 00:00:00 +0000
+categories: [DevOps]
 tags:
   - github
   - github-actions

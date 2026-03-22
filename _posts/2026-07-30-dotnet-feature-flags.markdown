@@ -2,6 +2,7 @@
 layout: post
 title: "Feature Flags in .NET: Ship Faster with Confidence"
 date: 2026-07-30 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - feature-flags

@@ -2,6 +2,7 @@
 layout: post
 title: "Web Development Fundamentals — Part 4: The DOM — Connecting JavaScript to HTML"
 date: 2025-05-22 00:00:00 +0000
+categories: [Web Development]
 tags:
   - web
   - javascript

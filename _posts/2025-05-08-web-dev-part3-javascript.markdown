@@ -2,6 +2,7 @@
 layout: post
 title: "Web Development Fundamentals — Part 3: JavaScript — Adding Interactivity"
 date: 2025-05-08 00:00:00 +0000
+categories: [Web Development]
 tags:
   - web
   - javascript

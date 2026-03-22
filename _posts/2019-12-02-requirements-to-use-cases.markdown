@@ -2,7 +2,7 @@
 layout: post
 title:  "Requirements to Use Cases"
 date:   2019-12-02 10:11:22 +1000
-categories: Design 
+categories: [Software Engineering]
 tags:
 - Requirement
 - Analysis

@@ -2,6 +2,7 @@
 layout: post
 title: "Entity Framework Core: A Step-by-Step Walkthrough"
 date: 2026-08-20 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - efcore

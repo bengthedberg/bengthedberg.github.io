@@ -2,7 +2,7 @@
 layout: post
 title:  "Reset a Forgotten Windows Administrator Password"
 date:   2019-09-13 14:21:47 +1000
-categories: Windows 
+categories: [Developer Tools]
 tags:
 - System Administration
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "C# Development with VS Code — Part 3: Debugging"
 date: 2025-10-02 00:00:00 +0000
+categories: [Developer Tools, .NET]
 tags:
   - csharp
   - vscode

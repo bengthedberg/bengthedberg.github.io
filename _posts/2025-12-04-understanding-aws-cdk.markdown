@@ -2,6 +2,7 @@
 layout: post
 title: "Understanding AWS CDK: Infrastructure as Real Code"
 date: 2025-12-04 00:00:00 +0000
+categories: [Cloud (AWS)]
 tags:
   - aws
   - cdk

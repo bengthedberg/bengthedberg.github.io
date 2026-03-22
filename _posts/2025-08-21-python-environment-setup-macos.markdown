@@ -2,6 +2,7 @@
 layout: post
 title: "Setting Up Python the Right Way on macOS with pyenv"
 date: 2025-08-21 00:00:00 +0000
+categories: [Python, Developer Tools]
 tags:
   - python
   - pyenv

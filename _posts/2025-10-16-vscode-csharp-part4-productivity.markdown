@@ -2,6 +2,7 @@
 layout: post
 title: "C# Development with VS Code — Part 4: Productivity"
 date: 2025-10-16 00:00:00 +0000
+categories: [Developer Tools, .NET]
 tags:
   - csharp
   - vscode

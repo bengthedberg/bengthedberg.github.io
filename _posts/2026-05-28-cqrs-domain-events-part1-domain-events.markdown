@@ -2,6 +2,7 @@
 layout: post
 title: "CQRS & Domain Events in .NET — Part 1: Domain Events for Loosely Coupled Systems"
 date: 2026-05-28 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - cqrs

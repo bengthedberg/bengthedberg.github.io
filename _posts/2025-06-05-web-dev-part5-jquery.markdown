@@ -2,6 +2,7 @@
 layout: post
 title: "Web Development Fundamentals — Part 5: jQuery — Write Less, Do More"
 date: 2025-06-05 00:00:00 +0000
+categories: [Web Development]
 tags:
   - web
   - javascript

@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Dependency Injection in ASP.NET Core"
 date: 2026-07-02 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - dependency-injection

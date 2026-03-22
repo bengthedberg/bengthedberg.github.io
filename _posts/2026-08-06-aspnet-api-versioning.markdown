@@ -2,6 +2,7 @@
 layout: post
 title: "API Versioning in ASP.NET Core: A Complete Guide"
 date: 2026-08-06 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - api-versioning

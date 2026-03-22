@@ -2,6 +2,7 @@
 layout: post
 title: "Introduction to EF Core and Domain Modeling — Part 2: One-to-One and One-to-Many Relationships"
 date: 2026-02-05 00:00:00 +0000
+categories: [.NET]
 tags:
   - efcore
   - dotnet

@@ -2,7 +2,7 @@
 layout: post
 title:  "Visual Studio Tips and Extensions"
 date:   2020-01-15 07:21:47 +1000
-categories: Visual Studio 
+categories: [Developer Tools]
 tags:
 - productivity
 ---

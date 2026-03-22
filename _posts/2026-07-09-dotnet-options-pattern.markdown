@@ -2,6 +2,7 @@
 layout: post
 title: "Configuration with the Options Pattern in .NET"
 date: 2026-07-09 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - configuration

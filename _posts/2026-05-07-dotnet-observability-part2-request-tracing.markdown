@@ -2,6 +2,7 @@
 layout: post
 title: ".NET Observability — Part 2: Better Request Tracing with User Context"
 date: 2026-05-07 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - observability

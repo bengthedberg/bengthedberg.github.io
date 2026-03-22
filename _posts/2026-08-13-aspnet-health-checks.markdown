@@ -2,6 +2,7 @@
 layout: post
 title: "Health Checks in ASP.NET Core for Application Monitoring"
 date: 2026-08-13 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - health-checks

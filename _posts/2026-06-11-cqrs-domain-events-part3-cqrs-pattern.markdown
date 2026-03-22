@@ -2,6 +2,7 @@
 layout: post
 title: "CQRS & Domain Events in .NET — Part 3: CQRS Pattern — Replacing MediatR"
 date: 2026-06-11 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - cqrs

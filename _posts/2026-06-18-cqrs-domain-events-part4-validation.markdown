@@ -2,6 +2,7 @@
 layout: post
 title: "CQRS & Domain Events in .NET — Part 4: CQRS Validation with Pipeline Behaviors and FluentValidation"
 date: 2026-06-18 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - cqrs

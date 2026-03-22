@@ -2,6 +2,7 @@
 layout: post
 title: "Building a REST API with .NET — Part 4: Authentication and Authorization"
 date: 2025-09-11 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - rest-api

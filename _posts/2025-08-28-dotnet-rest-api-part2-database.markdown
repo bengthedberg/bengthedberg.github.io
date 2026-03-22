@@ -2,6 +2,7 @@
 layout: post
 title: "Building a REST API with .NET — Part 2: Database Integration with Dapper"
 date: 2025-08-28 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - rest-api

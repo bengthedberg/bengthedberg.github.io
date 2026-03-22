@@ -2,6 +2,7 @@
 layout: post
 title: "CQRS & Domain Events in .NET — Part 2: Building a Custom Domain Events Dispatcher"
 date: 2026-06-04 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - cqrs

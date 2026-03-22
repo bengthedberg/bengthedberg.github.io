@@ -2,6 +2,7 @@
 layout: post
 title: "Web Development Fundamentals — Part 7: HTTP — How the Web Communicates"
 date: 2025-07-03 00:00:00 +0000
+categories: [Web Development, Networking]
 tags:
   - web
   - http

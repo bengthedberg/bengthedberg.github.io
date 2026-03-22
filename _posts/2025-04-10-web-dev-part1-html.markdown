@@ -2,6 +2,7 @@
 layout: post
 title: "Web Development Fundamentals — Part 1: HTML — The Structure of the Web"
 date: 2025-04-10 00:00:00 +0000
+categories: [Web Development]
 tags:
   - web
   - html

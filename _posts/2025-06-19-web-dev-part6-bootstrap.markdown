@@ -2,6 +2,7 @@
 layout: post
 title: "Web Development Fundamentals — Part 6: Bootstrap — Responsive Layouts Made Easy"
 date: 2025-06-19 00:00:00 +0000
+categories: [Web Development]
 tags:
   - web
   - bootstrap

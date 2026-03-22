@@ -2,6 +2,7 @@
 layout: post
 title: "Building a REST API with .NET — Part 6: Production Readiness"
 date: 2025-09-25 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - rest-api

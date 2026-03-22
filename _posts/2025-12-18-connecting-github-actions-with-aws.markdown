@@ -2,6 +2,7 @@
 layout: post
 title: "Connecting GitHub Actions to AWS the Right Way: OIDC Federation"
 date: 2025-12-18 00:00:00 +0000
+categories: [DevOps, Cloud (AWS)]
 tags:
   - aws
   - github-actions

@@ -2,6 +2,7 @@
 layout: post
 title: ".NET Observability — Part 3: Distributed Tracing with OpenTelemetry"
 date: 2026-05-14 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - observability

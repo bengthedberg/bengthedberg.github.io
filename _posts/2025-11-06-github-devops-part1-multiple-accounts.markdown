@@ -2,6 +2,7 @@
 layout: post
 title: "GitHub DevOps — Part 1: Managing Multiple GitHub Accounts with SSH"
 date: 2025-11-06 00:00:00 +0000
+categories: [DevOps]
 tags:
   - github
   - ssh

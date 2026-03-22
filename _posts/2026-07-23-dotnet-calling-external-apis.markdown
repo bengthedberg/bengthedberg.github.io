@@ -2,6 +2,7 @@
 layout: post
 title: "Calling External APIs in .NET the Right Way"
 date: 2026-07-23 00:00:00 +0000
+categories: [.NET]
 tags:
   - dotnet
   - http

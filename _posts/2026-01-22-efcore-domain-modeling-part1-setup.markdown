@@ -2,6 +2,7 @@
 layout: post
 title: "Introduction to EF Core and Domain Modeling — Part 1: Setup and Your First DbContext"
 date: 2026-01-22 00:00:00 +0000
+categories: [.NET]
 tags:
   - efcore
   - dotnet
