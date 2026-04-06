@@ -2,6 +2,7 @@
 layout: post
 title: "Deploy to AWS with S3, CloudFront & CDK"
 date: 2026-03-20 00:00:00 +0000
+categories: [React, AWS]
 tags:
   - react
   - aws

@@ -2,6 +2,7 @@
 layout: post
 title: "Node.js Fundamentals Part 1: Core Concepts and Building Blocks"
 date: 2026-01-05 00:00:00 +0000
+categories: [Node.js]
 tags:
   - nodejs
   - javascript

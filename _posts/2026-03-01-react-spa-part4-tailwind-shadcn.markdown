@@ -2,6 +2,7 @@
 layout: post
 title: "Styling with Tailwind CSS v4 & shadcn/ui"
 date: 2026-03-01 00:00:00 +0000
+categories: [React]
 tags:
   - react
   - tailwind

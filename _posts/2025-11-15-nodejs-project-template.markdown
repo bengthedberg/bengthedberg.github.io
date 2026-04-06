@@ -2,6 +2,7 @@
 layout: post
 title: "Setting Up a Production Node.js Project with TypeScript"
 date: 2025-11-15 00:00:00 +0000
+categories: [Node.js]
 tags:
   - nodejs
   - typescript

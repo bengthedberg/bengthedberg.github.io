@@ -2,6 +2,7 @@
 layout: post
 title: "Advanced AWS CDK Patterns: Multi-Stack Patterns and Cross-Stack References"
 date: 2026-04-01 00:00:00 +0000
+categories: [AWS]
 tags:
   - aws
   - cdk

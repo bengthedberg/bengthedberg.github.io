@@ -2,6 +2,7 @@
 layout: post
 title: "Server State with TanStack Query"
 date: 2026-02-20 00:00:00 +0000
+categories: [React]
 tags:
   - react
   - tanstack-query

@@ -2,6 +2,7 @@
 layout: post
 title: "Type-Safe Routing with TanStack Router"
 date: 2026-02-10 00:00:00 +0000
+categories: [React]
 tags:
   - react
   - tanstack-router

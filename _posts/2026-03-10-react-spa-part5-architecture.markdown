@@ -2,6 +2,7 @@
 layout: post
 title: "Modular Feature Architecture"
 date: 2026-03-10 00:00:00 +0000
+categories: [React]
 tags:
   - react
   - architecture

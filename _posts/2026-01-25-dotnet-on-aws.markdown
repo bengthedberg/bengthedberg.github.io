@@ -2,6 +2,7 @@
 layout: post
 title: "C# and .NET on AWS: A Practical Guide to Compute, Services, and Infrastructure"
 date: 2026-01-25 00:00:00 +0000
+categories: [.NET, AWS]
 tags:
   - dotnet
   - aws

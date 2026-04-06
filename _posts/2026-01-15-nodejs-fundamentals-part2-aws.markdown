@@ -2,6 +2,7 @@
 layout: post
 title: "Node.js Fundamentals Part 2: Deploying and Running Node.js on AWS"
 date: 2026-01-15 00:00:00 +0000
+categories: [Node.js]
 tags:
   - nodejs
   - aws

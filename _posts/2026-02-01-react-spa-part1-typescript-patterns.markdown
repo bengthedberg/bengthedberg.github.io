@@ -2,6 +2,7 @@
 layout: post
 title: "TypeScript Patterns for React"
 date: 2026-02-01 00:00:00 +0000
+categories: [React]
 tags:
   - react
   - typescript
