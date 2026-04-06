@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Event-Driven Messaging with .NET 10 on AWS: SQS, SNS, and EventBridge"
-date: 2026-04-28 00:00:00 +0000
+date: 2026-04-04 00:00:00 +0000
 categories: [.NET, AWS]
 tags:
   - dotnet

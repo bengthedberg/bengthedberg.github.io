@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Advanced AWS CDK Patterns: Event-Driven Order Processing"
-date: 2026-04-20 00:00:00 +0000
+date: 2026-04-03 00:00:00 +0000
 categories: [AWS]
 tags:
   - aws
