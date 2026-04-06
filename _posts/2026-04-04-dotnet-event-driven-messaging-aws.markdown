@@ -6,6 +6,7 @@ categories: [.NET, AWS]
 tags:
   - dotnet
   - aws
+  - csharp
   - sqs
   - sns
   - event-driven
