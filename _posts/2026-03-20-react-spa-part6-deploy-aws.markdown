@@ -377,6 +377,7 @@ CloudFront requires ACM certificates in `us-east-1`. Either deploy the stack to 
 
 ### GitHub Actions with OIDC
 
+{% raw %}
 ```yaml
 # .github/workflows/deploy.yml
 name: Deploy React SPA
@@ -424,6 +425,7 @@ jobs:
           npm ci
           npx cdk deploy --require-approval never
 ```
+{% endraw %}
 
 ## Troubleshooting Guide
 
@@ -479,7 +481,7 @@ Together, these tools and patterns form a production-ready foundation for buildi
 - [CloudFront Origins (CDK)](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_cloudfront_origins-readme.html)
 - [S3 Bucket (CDK)](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3.Bucket.html)
 - [BucketDeployment (CDK)](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3_deployment-readme.html)
-- [CloudFront OAC L2 Construct RFC](/posts/https://github.com/aws/aws-cdk-rfcs/blob/main/text/0617-cloudfront-oac-l2/)
+- [CloudFront OAC L2 Construct RFC](https://github.com/aws/aws-cdk-rfcs/blob/main/text/0617-cloudfront-oac-l2)
 - [AWS Blog: CDK L2 for CloudFront OAC](https://aws.amazon.com/blogs/devops/a-new-aws-cdk-l2-construct-for-amazon-cloudfront-origin-access-control-oac/)
 - [Deploy React SPA to S3+CloudFront (AWS Prescriptive Guidance)](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html)
 - [GitHub OIDC for AWS](https://docs.github.com/en/actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services)

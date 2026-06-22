@@ -236,6 +236,7 @@ Main is now at `1.0.1`.
 
 GitVersion integrates directly with GitHub Actions:
 
+{% raw %}
 ```yaml
 steps:
   - uses: actions/checkout@v4
@@ -254,6 +255,7 @@ steps:
   - name: Use version
     run: echo "Version is ${{ steps.gitversion.outputs.semVer }}"
 ```
+{% endraw %}
 
 > **Critical**: `fetch-depth: 0` is required. Without full Git history, GitVersion cannot calculate the correct version.
 

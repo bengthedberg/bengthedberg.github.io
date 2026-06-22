@@ -8,6 +8,9 @@ lang: en
 # Change to your timezone
 timezone: Australia/Sydney
 
+# Build posts dated in the future (e.g. scheduled series)
+future: true
+
 # jekyll-seo-tag settings
 title: Simply Software Development
 tagline: >-

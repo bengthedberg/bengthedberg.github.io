@@ -281,6 +281,7 @@ Testcontainers works out of the box in CI environments that have Docker. For eve
 
 ### GitHub Actions Workflow
 
+{% raw %}
 ```yaml
 name: Build and Test
 on:
@@ -346,6 +347,7 @@ jobs:
         with:
           action: terminate
 ```
+{% endraw %}
 
 Key points:
 - **Testcontainers Cloud** is optional but speeds up CI by running containers remotely — sign up for a free account and store the token as `TC_CLOUD_TOKEN`

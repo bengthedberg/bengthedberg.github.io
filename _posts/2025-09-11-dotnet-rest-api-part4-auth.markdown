@@ -376,6 +376,7 @@ public IActionResult GenerateToken([FromBody] TokenRequest request)
 
 ### Testing with the HTTP File
 
+{% raw %}
 ```http
 ### Get a token (from your identity service)
 POST https://localhost:5002/token
@@ -401,6 +402,7 @@ Authorization: Bearer {{token}}
 ### Get all movies (no auth required)
 GET https://localhost:5001/api/movies
 ```
+{% endraw %}
 
 ## Summary
 

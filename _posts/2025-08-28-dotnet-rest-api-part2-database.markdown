@@ -92,6 +92,7 @@ public static MovieResponse ToMovieResponse(this Movie movie)
 
 Update the route to accept a string, then determine if it is a GUID or a slug:
 
+{% raw %}
 ```csharp
 // Movies.API/ApiEndpoints.cs
 public static class ApiEndpoints
@@ -110,6 +111,7 @@ public static class ApiEndpoints
     }
 }
 ```
+{% endraw %}
 
 Update the repository interface with a `GetBySlugAsync` method:
 

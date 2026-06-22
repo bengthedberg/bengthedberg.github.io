@@ -198,6 +198,7 @@ export function userListOptions(filters: UserFilters) {
 
 The same `queryOptions` object can be used in three different places:
 
+{% raw %}
 ```tsx
 // 1. In a TanStack Router loader (prefetch)
 export const Route = createFileRoute('/users/$userId')({
@@ -223,6 +224,7 @@ function UserPage() {
   View User
 </Link>
 ```
+{% endraw %}
 
 Inline `useQuery({ queryKey, queryFn })` works, but duplicates key-function pairs. `queryOptions` creates a single source of truth that ensures the `queryKey` and `queryFn` are always paired correctly.
 

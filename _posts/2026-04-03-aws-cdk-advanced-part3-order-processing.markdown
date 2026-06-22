@@ -443,8 +443,9 @@ These tests catch regressions like accidentally changing the billing mode or los
 
 ## GitHub Actions CI/CD
 
-The workflow builds the Lambda, runs tests, validates the CDK template, and deploys on push to main using OIDC authentication (/posts/as covered in detail in [Part 2](2026-04-aws-cdk-advanced-part2-github-actions/)):
+The workflow builds the Lambda, runs tests, validates the CDK template, and deploys on push to main using OIDC authentication (as covered in detail in [Part 2](/posts/aws-cdk-advanced-part2-github-actions/)):
 
+{% raw %}
 ```yaml
 name: CDK Deploy
 
@@ -501,6 +502,7 @@ jobs:
       - run: npx cdk deploy --require-approval never --outputs-file cdk-outputs.json
       - run: cat cdk-outputs.json
 ```
+{% endraw %}
 
 ## Testing End-to-End
 

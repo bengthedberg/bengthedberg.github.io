@@ -1026,6 +1026,7 @@ jobs:
 
 `.github/workflows/deploy.yml` — uses OIDC for keyless AWS authentication and a reusable job to avoid duplicating steps per environment:
 
+{% raw %}
 ```yaml
 name: AWS CDK Deploy
 
@@ -1086,6 +1087,7 @@ jobs:
       - run: cdk synth
       - run: cdk deploy --require-approval never
 ```
+{% endraw %}
 
 > **Key improvement over the original**: This uses a single job with conditional environment mapping instead of duplicating the entire job three times. The `microsoft/variable-substitution` action (deprecated) is replaced with `sed` and `jq`.
 

@@ -391,6 +391,7 @@ public class MyApiStack : Stack
 
 ### GitHub Actions
 
+{% raw %}
 ```yaml
 name: Deploy .NET Lambda
 on:
@@ -412,6 +413,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: us-east-1
 ```
+{% endraw %}
 
 ### AWS Deploy Tool
 

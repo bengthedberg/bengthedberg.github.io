@@ -113,6 +113,7 @@ merge-message-formats: {}
 
 Create `.github/workflows/build-and-publish.yml`:
 
+{% raw %}
 ```yaml
 name: Build & Publish NuGet
 
@@ -213,6 +214,7 @@ jobs:
           artifacts: "package/*"
           token: ${{ secrets.GITHUB_TOKEN }}
 ```
+{% endraw %}
 
 ## Understanding the Workflow
 
@@ -236,7 +238,7 @@ The workflow is split into two jobs for clarity and safety:
 
 The workflow uses `secrets.GITHUB_TOKEN` — a token that GitHub automatically creates for each workflow run. It requires the `packages: write` and `contents: write` permissions, declared at the top of the workflow.
 
-> **Troubleshooting**: If the token fails to push the package, create a **Personal Access Token (classic)** with the `write:packages` scope. Add it as a repository secret (e.g., `NUGET_TOKEN`) and replace `${{ secrets.GITHUB_TOKEN }}` with `${{ secrets.NUGET_TOKEN }}`.
+> **Troubleshooting**: If the token fails to push the package, create a **Personal Access Token (classic)** with the `write:packages` scope. Add it as a repository secret (e.g., `NUGET_TOKEN`) and replace {% raw %}`${{ secrets.GITHUB_TOKEN }}`{% endraw %} with {% raw %}`${{ secrets.NUGET_TOKEN }}`{% endraw %}.
 
 ### Version Flow
 
@@ -314,6 +316,7 @@ Insert a test step before packing:
 
 Add a step to push to the public NuGet registry:
 
+{% raw %}
 ```yaml
 - name: Push to nuget.org
   run: >
@@ -321,6 +324,7 @@ Add a step to push to the public NuGet registry:
     --api-key ${{ secrets.NUGET_API_KEY }}
     --source https://api.nuget.org/v3/index.json
 ```
+{% endraw %}
 
 ### Build on Pull Requests
 

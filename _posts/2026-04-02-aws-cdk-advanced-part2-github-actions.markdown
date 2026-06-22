@@ -250,6 +250,7 @@ const config: EnvironmentConfig = {
 
 A composite action eliminates duplication across environments. It handles OIDC authentication, dependency installation (TypeScript or .NET), synthesis, diffing, and deployment:
 
+{% raw %}
 ```yaml
 # .github/actions/cdk-deploy/action.yml
 name: "CDK Deploy"
@@ -321,11 +322,13 @@ runs:
         path: ${{ inputs.working-directory }}/cdk-outputs.json
         retention-days: 5
 ```
+{% endraw %}
 
 ### Main Deployment Pipeline
 
 The main workflow chains build, test, and deployment across all three environments:
 
+{% raw %}
 ```yaml
 # .github/workflows/deploy.yml
 name: Deploy Infrastructure
@@ -447,6 +450,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
           aws-account-id: ${{ secrets.AWS_ACCOUNT_ID }}
 ```
+{% endraw %}
 
 Key design decisions in this workflow:
 
@@ -459,6 +463,7 @@ Key design decisions in this workflow:
 
 Show infrastructure changes on every PR so reviewers can catch surprises before merging:
 
+{% raw %}
 ```yaml
 # .github/workflows/pr-diff.yml
 name: CDK Diff on PR
@@ -528,11 +533,13 @@ jobs:
               });
             }
 ```
+{% endraw %}
 
 ### Destroy Workflow with Safety Checks
 
 The destroy workflow is intentionally gated: it requires typing the environment name to confirm and omits `prod` from the dropdown entirely:
 
+{% raw %}
 ```yaml
 # .github/workflows/destroy.yml
 name: Destroy Infrastructure
@@ -574,6 +581,7 @@ jobs:
             -c env=${{ github.event.inputs.environment }} \
             -c account=${{ secrets.AWS_ACCOUNT_ID }}
 ```
+{% endraw %}
 
 ## Advanced Patterns
 
@@ -581,6 +589,7 @@ jobs:
 
 When a value is both secret and needed at CDK synth time (such as a certificate ARN or hosted zone ID), pass it via CDK context:
 
+{% raw %}
 ```yaml
 - name: CDK Deploy
   env:
@@ -591,6 +600,7 @@ When a value is both secret and needed at CDK synth time (such as a certificate 
       -c hostedZoneId=$HOSTED_ZONE_ID \
       -c certificateArn=$CERTIFICATE_ARN
 ```
+{% endraw %}
 
 Then in your CDK code:
 
@@ -605,6 +615,7 @@ const certificate = acm.Certificate.fromCertificateArn(
 
 When a later job needs outputs from an earlier deployment:
 
+{% raw %}
 ```yaml
 deploy-dev:
   outputs:
@@ -621,6 +632,7 @@ smoke-test:
   steps:
     - run: curl -f "${{ needs.deploy-dev.outputs.api-url }}items"
 ```
+{% endraw %}
 
 ## Troubleshooting
 

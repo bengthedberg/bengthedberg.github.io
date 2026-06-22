@@ -404,6 +404,7 @@ function LoginForm() {
 
 The standard pattern uses an `undefined` default combined with a guard in the hook, ensuring you never silently get `undefined`:
 
+{% raw %}
 ```tsx
 import { createContext, useContext, useState, type ReactNode } from 'react';
 
@@ -443,6 +444,7 @@ function AuthProvider({ children }: { children: ReactNode }) {
 
 export { AuthProvider, useAuth };
 ```
+{% endraw %}
 
 ## Custom Hooks
 

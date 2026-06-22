@@ -215,6 +215,7 @@ This keeps the API project's startup code clean and lets the Application project
 
 Hard-coding route strings in multiple places is error-prone. A static class keeps them in one place:
 
+{% raw %}
 ```csharp
 // Movies.API/ApiEndpoints.cs
 public static class ApiEndpoints
@@ -233,6 +234,7 @@ public static class ApiEndpoints
     }
 }
 ```
+{% endraw %}
 
 If a route ever changes, you update it in one place.
 
@@ -366,6 +368,7 @@ A few things to note:
 
 Visual Studio and JetBrains Rider support `.http` files for quick ad-hoc testing. Create a file in the API project:
 
+{% raw %}
 ```http
 ### Create a movie
 POST https://localhost:5001/api/movies
@@ -396,8 +399,9 @@ Content-Type: application/json
 ### Delete a movie
 DELETE https://localhost:5001/api/movies/{{movieId}}
 ```
+{% endraw %}
 
-Replace `{{movieId}}` with a real GUID from the Create response.
+Replace {% raw %}`{{movieId}}`{% endraw %} with a real GUID from the Create response.
 
 ## Summary
 

@@ -32,7 +32,7 @@ This post covers everything you need to build a fully type-safe routing layer: f
 
 Key advantages for SPAs:
 
-- **100% type-safe navigation** -- `<Link to="/posts/$postId" params={{ postId: '42' }}>` autocompletes paths and enforces required params. A typo in the path or a missing param is a TypeScript error.
+- **100% type-safe navigation** -- {% raw %}`<Link to="/posts/$postId" params={{ postId: '42' }}>`{% endraw %} autocompletes paths and enforces required params. A typo in the path or a missing param is a TypeScript error.
 - **Search params as first-class state** -- validated with schemas (Zod, Valibot), type-safe, JSON-serializable, and reactive. TanStack describes this as "useState, but in the URL."
 - **Built-in data loading** -- route `loader` functions run before rendering, avoiding render-then-fetch waterfalls. Loaders integrate natively with TanStack Query.
 - **Automatic code splitting** -- the Vite plugin wraps each route in `React.lazy()` automatically when `autoCodeSplitting: true` is set.
@@ -98,6 +98,7 @@ Use **directories** when a route has multiple children -- it groups related file
 
 The root route (`__root.tsx`) wraps every other route and is always rendered. Use it for global layout elements, provider wrappers, and devtools.
 
+{% raw %}
 ```tsx
 import {
   createRootRouteWithContext,
@@ -147,6 +148,7 @@ function RootLayout() {
   );
 }
 ```
+{% endraw %}
 
 Use `createRootRouteWithContext<T>()` when you need to pass dependencies (like `QueryClient`, auth state, or feature flags) through the router context. Every route's `loader`, `beforeLoad`, and component can access this context with full type safety.
 
@@ -216,6 +218,7 @@ function ProductsPage() {
 
 ### Writing Search Params from Components
 
+{% raw %}
 ```tsx
 import { Link, useNavigate } from '@tanstack/react-router';
 
@@ -231,6 +234,7 @@ navigate({
   search: (prev) => ({ ...prev, page: prev.page + 1 }),
 });
 ```
+{% endraw %}
 
 Declaring the schema in the route definition creates a single source of truth. Every `<Link>` in the app is type-checked against that schema. Parent route schemas are inherited by children, so shared params like `locale` or `theme` can be defined once on a parent layout.
 

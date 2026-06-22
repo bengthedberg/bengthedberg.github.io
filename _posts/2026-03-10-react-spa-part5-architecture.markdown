@@ -196,6 +196,7 @@ export function useAuth(): AuthContext {
 
 ### Step 3: Root Route with Auth Context
 
+{% raw %}
 ```tsx
 // src/routes/__root.tsx
 interface RouterContext {
@@ -238,8 +239,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   </StrictMode>,
 );
 ```
+{% endraw %}
 
-The `context: { auth: undefined! }` pattern tells TypeScript "I promise this will be provided at runtime." The actual value is passed via `<RouterProvider context={{ auth }}>`.
+The `context: { auth: undefined! }` pattern tells TypeScript "I promise this will be provided at runtime." The actual value is passed via {% raw %}`<RouterProvider context={{ auth }}>`{% endraw %}.
 
 ## Protected Route Patterns
 

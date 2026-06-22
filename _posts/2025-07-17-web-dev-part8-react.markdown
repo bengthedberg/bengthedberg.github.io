@@ -102,6 +102,7 @@ function AboutPage() {
 
 Use curly braces `{}` to embed JavaScript expressions inside JSX:
 
+{% raw %}
 ```jsx
 const user = { name: "Alice", avatar: "alice.jpg" };
 
@@ -119,6 +120,7 @@ function Profile() {
   );
 }
 ```
+{% endraw %}
 
 Note: use `className` instead of `class` for CSS classes — `class` is a reserved word in JavaScript.
 
