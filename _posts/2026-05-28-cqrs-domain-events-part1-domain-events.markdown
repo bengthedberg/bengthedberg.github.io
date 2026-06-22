@@ -8,7 +8,7 @@ tags:
   - cqrs
   - domain-events
   - ddd
-  - ef-core
+  - efcore
   - mediatr
 series: "CQRS & Domain Events in .NET"
 series_part: 1

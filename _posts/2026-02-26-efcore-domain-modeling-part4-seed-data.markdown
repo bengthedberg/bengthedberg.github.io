@@ -7,7 +7,6 @@ tags:
   - efcore
   - dotnet
   - domain-modeling
-  - entity-framework
   - csharp
 series: "Introduction to EF Core and Domain Modeling"
 series_part: 4

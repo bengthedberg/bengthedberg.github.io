@@ -6,7 +6,6 @@ categories: [.NET]
 tags:
   - dotnet
   - efcore
-  - entity-framework
   - csharp
   - database
 ---

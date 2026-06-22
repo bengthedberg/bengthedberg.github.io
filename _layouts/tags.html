@@ -1,39 +1,33 @@
 ---
 layout: page
-# All the Tags of posts — tag cloud with size based on post count.
+# All the Tags of posts — tag cloud with size, weight and colour scaled by post count.
 ---
 
 {% assign tags = '' | split: '' %}
-{% assign max_count = 1 %}
-{% assign min_count = 999999 %}
-
 {% for t in site.tags %}
   {% assign tags = tags | push: t[0] %}
-  {% if t[1].size > max_count %}
-    {% assign max_count = t[1].size %}
-  {% endif %}
-  {% if t[1].size < min_count %}
-    {% assign min_count = t[1].size %}
-  {% endif %}
 {% endfor %}
-
 {% assign sorted_tags = tags | sort_natural %}
-{% assign range = max_count | minus: min_count %}
 
 <div id="tags" class="d-flex flex-wrap mx-xl-2" style="align-items: baseline;">
   {% for t in sorted_tags %}
     {% assign count = site.tags[t].size %}
-    {% if range == 0 %}
-      {% assign font_size_tens = 12 %}
+    {% if count >= 16 %}
+      {% assign fs = '2.3' %}{% assign fw = 700 %}{% assign mix = 100 %}
+    {% elsif count >= 9 %}
+      {% assign fs = '1.85' %}{% assign fw = 600 %}{% assign mix = 80 %}
+    {% elsif count >= 5 %}
+      {% assign fs = '1.5' %}{% assign fw = 500 %}{% assign mix = 60 %}
+    {% elsif count >= 3 %}
+      {% assign fs = '1.2' %}{% assign fw = 400 %}{% assign mix = 40 %}
+    {% elsif count >= 2 %}
+      {% assign fs = '1.0' %}{% assign fw = 400 %}{% assign mix = 20 %}
     {% else %}
-      {% assign numerator = count | minus: min_count | times: 12 %}
-      {% assign font_size_tens = numerator | divided_by: range | plus: 8 %}
+      {% assign fs = '0.85' %}{% assign fw = 300 %}{% assign mix = 0 %}
     {% endif %}
-    {% assign fs_whole = font_size_tens | divided_by: 10 %}
-    {% assign fs_frac = font_size_tens | modulo: 10 %}
     <div>
       <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}"
-         style="font-size: {{ fs_whole }}.{{ fs_frac }}em;">
+         style="font-size: {{ fs }}em; font-weight: {{ fw }}; color: color-mix(in srgb, var(--text-muted-color), var(--link-color) {{ mix }}%);">
         {{ t -}}
         <span class="text-muted">{{ count }}</span>
       </a>

@@ -8,7 +8,7 @@ tags:
   - rest-api
   - csharp
   - validation
-  - fluentvalidation
+  - fluent-validation
   - middleware
 series: "Building a REST API with .NET"
 series_part: 3
